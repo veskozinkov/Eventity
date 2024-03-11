@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "711160579234",
+    "firebase_url": "https://projectm-aba50-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "projectm-aba50",
+    "storage_bucket": "projectm-aba50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711160579234:android:fc1d6694f8b1ea676b43fb",
+        "android_client_info": {
+          "package_name": "vz.apps.dailyevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711160579234-l9h620hb6j28k1ccco57j7l4bhvu0o6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP9xC9mkJbUAdGhd7YbRW67jGMA7DYg8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711160579234-l9h620hb6j28k1ccco57j7l4bhvu0o6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

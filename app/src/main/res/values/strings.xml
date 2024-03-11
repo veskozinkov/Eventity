@@ -1,0 +1,470 @@
+<resources>
+    <string name="app_name" translatable="false">Daily Events</string>
+    <string name="app_font" translatable="false">monospace</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="proceed">Proceed</string>
+    <string name="signIn">Sign in</string>
+    <string name="forgotten_password">Forgot password?</string>
+    <string name="create_new_account">New user? Click here!</string>
+    <string name="resend_confirmation_email">Resend email</string>
+    <string name="signUp">Sign up</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="existing_account">Already have an account? Click here!</string>
+    <string name="account">Account</string>
+    <string name="change">Change</string>
+    <string name="name">Name:</string>
+    <string name="email_address2">Email address:</string>
+    <string name="new_email_address">New email address</string>
+    <string name="password2">Password:</string>
+    <string name="signOut">Sign out</string>
+    <string name="delete">Delete</string>
+    <string name="fragment_title1">Last week</string>
+    <string name="fragment_title2">This week</string>
+    <string name="fragment_title3">Next week</string>
+    <string name="fragment_title4">Other events</string>
+    <string name="fragment_title5">Events</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="information">Information</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="day">Day</string>
+    <string name="time">Time</string>
+    <string name="new_information">New information</string>
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_account">Delete account</string>
+    <string name="other_settings">Other settings</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_account_message">* If you wish to proceed type in the word \"deletion\" for confirmation. All information about your account will then be deleted.</string>
+    <string name="send">Send</string>
+    <string name="reset_password_message">* An email will be sent to you to set a new password.</string>
+    <string name="change_email">Change email</string>
+    <string name="change_name">Change name</string>
+    <string name="change_password">Change password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="wrong_password">Wrong password!</string>
+    <string name="empty_field_error_message">Field cannot be empty!</string>
+    <string name="max_info_length_error_message">The information is limited to %1$d characters!</string>
+    <string name="confirmation_word">deletion</string>
+    <string name="wrong_confirmation_word_error_message">Wrong confirmation word!</string>
+    <string name="max_name_length_error_message">The name is limited to %1$d characters!</string>
+    <string name="min_password_length_error_message">You must enter at least %1$d characters!</string>
+    <string name="email_address_not_confirmed">Email address not confirmed.</string>
+    <string name="wrong_email_address_or_password">Incorrect credentials!</string>
+    <string name="email_address_in_use">The email address is linked to another account!</string>
+    <string name="account_active_on_another_device">The account is active on another device. Please use that device or simply sign in again.</string>
+    <string name="change_password_warning_message">If it wasn\'t you who signed in to the account on another device, please change your password immediately.</string>
+    <string name="confirmation_email_sent_to">A confirmation email was sent to</string>
+    <string name="confirmation_email_sent_to_error">A problem occurred while sending a confirmation email to</string>
+    <string name="try_again_later">Please try again later.</string>
+    <string name="account_created_successfully">Account created successfully!</string>
+    <string name="account_not_created_successfully">A problem occurred while creating account!</string>
+    <string name="invalid_date">Invalid date!</string>
+    <string name="account_deleted_successfully">Account deleted successfully!</string>
+    <string name="account_not_deleted_successfully">A problem occurred while deleting account!</string>
+    <string name="email_sent_successfully">Email sent successfully!</string>
+    <string name="email_not_sent_successfully">A problem occurred while sending email!</string>
+    <string name="email_address_changed_successfully">Email address changed successfully!</string>
+    <string name="email_address_not_changed_successfully">A problem occurred while changing email address!</string>
+    <string name="name_changed_successfully">Name changed successfully!</string>
+    <string name="name_not_changed_successfully">A problem occurred while changing name!</string>
+    <string name="password_changed_successfully">Password changed successfully!</string>
+    <string name="password_not_changed_successfully">A problem occurred while changing password!</string>
+    <string name="select_country_info_message">Please select a country.</string>
+    <string name="select_country">Select a country</string>
+    <string name="countries">Countries</string>
+    <string name="search">Search</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="problem_with_server">A problem occurred with the server!</string>
+    <string name="country_changed_successfully">Country changed successfully!</string>
+    <string name="country_not_changed_successfully">A problem occurred while changing country!</string>
+    <string name="chosen_country_will_soon_be_updated">Information for the country you have chosen will soon be updated so you are unable to change to it.</string>
+    <string name="info_will_soon_be_updated">Your information will soon be updated so you are unable to change your country.</string>
+    <string name="connection_lost_while_signing_in_error_message1">You cannot access the settings page because your internet connection was lost during the last time you were signing in!</string>
+    <string name="connection_lost_while_signing_in_error_message2">Your internet connection was lost during the last time you were signing in!</string>
+    <string name="connection_lost_while_signing_in_info_message1">If you haven\'t already, please establish a stable connection and wait until you are signed out automatically to fix any problems with the files that may have occurred.</string>
+    <string name="connection_lost_while_signing_in_info_message2">If it takes more than 2 minutes to sign out automatically, you can try to manually close and reopen the app.</string>
+    <string name="connection_lost_while_signing_in_info_message3">You can press the settings button to see all messages again.</string>
+    <string name="connection_lost_while_signing_up_error">Your internet connection was lost during the sign up process!</string>
+    <string name="connection_lost_while_signing_up_info_message1">This account will now be automatically deleted to fix any problems that may have occurred.</string>
+    <string name="connection_lost_while_signing_up_info_message2">If you haven\'t already, please establish a stable connection and then try to recreate it.</string>
+    <string name="notification_channel_name">Notifications</string>
+    <string name="notification_channel_description">This is the channel that is used to send notifications for all saved events!</string>
+    <string name="time_format">Time format:</string>
+    <string name="date_format">Date format:</string>
+    <string name="notifications1">Notifications:</string>
+    <string name="notifications_schedule">Notifications schedule:</string>
+    <string name="notifications2">Notifications</string>
+    <string name="info_character_limit">Current information characters limit: %1$d</string>
+    <string name="events_per_day_limit">Current daily/other events limit: %1$d/%2$d</string>
+    <string name="events_per_day_limit_info_message1">You have reached the limit of %1$d events for the currently selected day. You can increase it inside the \"Other settings\" dialog.</string>
+    <string name="events_per_day_limit_info_message2">You have reached the limit of %1$d events for the currently selected day.</string>
+    <string name="other_events_limit_info_message1">You have reached the limit of %1$d events that can be saved as other events. You can increase it inside the \"Other settings\" dialog.</string>
+    <string name="other_events_limit_info_message2">You have reached the limit of %1$d events that can be saved as other events.</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="saving_settings_error">A problem occurred while saving your selection!</string>
+    <string name="time_already_exists_error">An event with the specified time already exists!</string>
+    <string name="date_and_time_already_exist_error">An event with the specified date and time already exists!</string>
+    <string name="on_time">On time</string>
+    <string name="early_5_mins">5 mins. earlier</string>
+    <string name="early_10_mins">10 mins. earlier</string>
+    <string name="early_15_mins">15 mins. earlier</string>
+    <string name="early_30_mins">30 mins. earlier</string>
+    <string name="early_1_hr">1 hr. earlier</string>
+    <string name="early_2_hrs">2 hrs. earlier</string>
+    <string name="early_3_hrs">3 hrs. earlier</string>
+    <string name="early_6_hrs">6 hrs. earlier</string>
+    <string name="early_12_hrs">12 hrs. earlier</string>
+    <string name="early_24_hrs">24 hrs. earlier</string>
+    <string name="off">Off</string>
+    <string name="on_time_notification_title">You have a scheduled event!</string>
+    <string name="early_5_mins_notification_title">You have a scheduled event in 5 minutes!</string>
+    <string name="early_10_mins_notification_title">You have a scheduled event in 10 minutes!</string>
+    <string name="early_15_mins_notification_title">You have a scheduled event in 15 minutes!</string>
+    <string name="early_30_mins_notification_title">You have a scheduled event in 30 minutes!</string>
+    <string name="early_1_hr_notification_title">You have a scheduled event in 1 hour!</string>
+    <string name="early_2_hrs_notification_title">You have a scheduled event in 2 hours!</string>
+    <string name="early_3_hrs_notification_title">You have a scheduled event in 3 hours!</string>
+    <string name="early_6_hrs_notification_title">You have a scheduled event in 6 hours!</string>
+    <string name="early_12_hrs_notification_title">You have a scheduled event in 12 hours!</string>
+    <string name="early_24_hrs_notification_title">You have a scheduled event in 24 hours!</string>
+    <string name="notifications_disabled">Notifications for this app are currently disabled in the device settings! In order for them to work you will have to enable them manually from there!</string>
+    <string name="notification_channel_disabled">The main notification channel for this app is currently disabled in the device settings! In order for the notifications to work you will have to enable it manually from there!</string>
+    <string name="auto_time_turned_off">Automatic date and time is currently turned off</string>
+    <string name="turn_on">Turn on</string>
+    <string name="auto_time_message">* Please turn on this setting! Otherwise the app will not work correctly.</string>
+    <string name="delete_all_saved_events">Delete all saved events</string>
+    <string name="delete_all_saved_events_message">* This dialog can also be used if you experience some weird behavior when interacting with the events, which is not fixed by signing out and then signing in again.</string>
+    <string name="all_saved_events_deleted_successfully">All saved events have been deleted successfully!</string>
+    <string name="all_saved_events_not_deleted_successfully">A problem occurred while deleting all saved events!</string>
+    <string name="try_again_in_a_few_minutes">Please try again in a few minutes!</string>
+    <string name="second_notification">Second notification:</string>
+    <string name="at_oclock">At %1$s</string>
+    <string name="billing_error">A billing problem occurred!</string>
+    <string name="select_country_dialog_warning_message">Important! Please choose the country where you plan to use the app!</string>
+    <string name="sw_less_than_360dp_warning_message">Screen widths of less than 360 density independent pixels are not supported!</string>
+    <string name="sw_less_than_360dp_info_message">Please try choosing a different screen zoom value in the device settings.</string>
+    <string name="colon" translatable="false">:</string>
+    <string name="dot" translatable="false">.</string>
+    <string name="afghanistan">Afghanistan</string>
+    <string name="albania">Albania</string>
+    <string name="аlgeria">Algeria</string>
+    <string name="american_samoa">American Samoa</string>
+    <string name="andorra">Andorra</string>
+    <string name="angola">Angola</string>
+    <string name="antarctica">Antarctica</string>
+    <string name="antigua_barbuda">Antigua and Barbuda</string>
+    <string name="argentina">Argentina</string>
+    <string name="armenia">Armenia</string>
+    <string name="aruba">Aruba</string>
+    <string name="australia">Australia</string>
+    <string name="austria">Austria</string>
+    <string name="azerbaijan">Azerbaijan</string>
+    <string name="bahamas">Bahamas</string>
+    <string name="bahrain">Bahrain</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="barbados">Barbados</string>
+    <string name="belarus">Belarus</string>
+    <string name="belgium">Belgium</string>
+    <string name="belize">Belize</string>
+    <string name="benin">Benin</string>
+    <string name="bhutan">Bhutan</string>
+    <string name="bolivia">Bolivia</string>
+    <string name="bosnia_herzegovina">Bosnia and Herzegovina</string>
+    <string name="botswana">Botswana</string>
+    <string name="brazil">Brazil</string>
+    <string name="brunei">Brunei</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="burkina_faso">Burkina Faso</string>
+    <string name="burundi">Burundi</string>
+    <string name="cambodia">Cambodia</string>
+    <string name="cameroon">Cameroon</string>
+    <string name="canada">Canada</string>
+    <string name="cape_verde">Cape Verde</string>
+    <string name="central_african_republic">Central African Republic</string>
+    <string name="chad">Chad</string>
+    <string name="chile">Chile</string>
+    <string name="china">China</string>
+    <string name="christmas_island">Christmas Island</string>
+    <string name="cocos_islands">Cocos Islands</string>
+    <string name="colombia">Colombia</string>
+    <string name="comoros">Comoros</string>
+    <string name="costa_rica">Costa Rica</string>
+    <string name="croatia">Croatia</string>
+    <string name="cuba">Cuba</string>
+    <string name="curacao">Curacao</string>
+    <string name="cyprus">Cyprus</string>
+    <string name="czech_republic">Czech Republic</string>
+    <string name="democratic_republic_congo">Democratic Republic of the Congo</string>
+    <string name="denmark">Denmark</string>
+    <string name="djibouti">Djibouti</string>
+    <string name="dominica">Dominica</string>
+    <string name="dominican_republic">Dominican Republic</string>
+    <string name="east_timor">East Timor</string>
+    <string name="ecuador">Ecuador</string>
+    <string name="egypt">Egypt</string>
+    <string name="el_salvador">El Salvador</string>
+    <string name="equatorial_guinea">Equatorial Guinea</string>
+    <string name="eritrea">Eritrea</string>
+    <string name="estonia">Estonia</string>
+    <string name="ethiopia">Ethiopia</string>
+    <string name="faroe_islands">Faroe Islands</string>
+    <string name="fiji">Fiji</string>
+    <string name="finland">Finland</string>
+    <string name="france">France</string>
+    <string name="french_polynesia">French Polynesia</string>
+    <string name="gabon">Gabon</string>
+    <string name="gambia">Gambia</string>
+    <string name="georgia">Georgia</string>
+    <string name="germany">Germany</string>
+    <string name="ghana">Ghana</string>
+    <string name="gibraltar">Gibraltar</string>
+    <string name="greece">Greece</string>
+    <string name="greenland">Greenland</string>
+    <string name="grenada">Grenada</string>
+    <string name="guam">Guam</string>
+    <string name="guatemala">Guatemala</string>
+    <string name="guinea">Guinea</string>
+    <string name="guinea_bissau">Guinea-Bissau</string>
+    <string name="guyana">Guyana</string>
+    <string name="haiti">Haiti</string>
+    <string name="honduras">Honduras</string>
+    <string name="hong_kong">Hong Kong</string>
+    <string name="hungary">Hungary</string>
+    <string name="iceland">Iceland</string>
+    <string name="india">India</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="iran">Iran</string>
+    <string name="iraq">Iraq</string>
+    <string name="ireland">Ireland</string>
+    <string name="israel">Israel</string>
+    <string name="italy">Italy</string>
+    <string name="ivory_coast">Ivory Coast</string>
+    <string name="jamaica">Jamaica</string>
+    <string name="japan">Japan</string>
+    <string name="jordan">Jordan</string>
+    <string name="kazakhstan">Kazakhstan</string>
+    <string name="kenya">Kenya</string>
+    <string name="kiribati">Kiribati</string>
+    <string name="kuwait">Kuwait</string>
+    <string name="kyrgyzstan">Kyrgyzstan</string>
+    <string name="laos">Laos</string>
+    <string name="latvia">Latvia</string>
+    <string name="lebanon">Lebanon</string>
+    <string name="lesotho">Lesotho</string>
+    <string name="liberia">Liberia</string>
+    <string name="libya">Libya</string>
+    <string name="liechtenstein">Liechtenstein</string>
+    <string name="lithuania">Lithuania</string>
+    <string name="luxembourg">Luxembourg</string>
+    <string name="macao">Macaо</string>
+    <string name="north_macedonia">North Macedonia</string>
+    <string name="madagascar">Madagascar</string>
+    <string name="malawi">Malawi</string>
+    <string name="malaysia">Malaysia</string>
+    <string name="maldives">Maldives</string>
+    <string name="mali">Mali</string>
+    <string name="malta">Malta</string>
+    <string name="marshall_islands">Marshall Islands</string>
+    <string name="mauritania">Mauritania</string>
+    <string name="mauritius">Mauritius</string>
+    <string name="mexico">Mexico</string>
+    <string name="micronesia">Micronesia</string>
+    <string name="moldova">Moldova</string>
+    <string name="monaco">Monaco</string>
+    <string name="mongolia">Mongolia</string>
+    <string name="montenegro">Montenegro</string>
+    <string name="morocco">Morocco</string>
+    <string name="mozambique">Mozambique</string>
+    <string name="myanmar">Myanmar</string>
+    <string name="namibia">Namibia</string>
+    <string name="nauru">Nauru</string>
+    <string name="nepal">Nepal</string>
+    <string name="netherlands">Netherlands</string>
+    <string name="new_caledonia">New Caledonia</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="nicaragua">Nicaragua</string>
+    <string name="niger">Niger</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="niue">Niue</string>
+    <string name="north_korea">North Korea</string>
+    <string name="northern_mariana_islands">Northern Mariana Islands</string>
+    <string name="norway">Norway</string>
+    <string name="oman">Oman</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="palau">Palau</string>
+    <string name="palestine">Palestine</string>
+    <string name="panama">Panama</string>
+    <string name="papua_new_guinea">Papua New Guinea</string>
+    <string name="paraguay">Paraguay</string>
+    <string name="peru">Peru</string>
+    <string name="philippines">Philippines</string>
+    <string name="poland">Poland</string>
+    <string name="portugal">Portugal</string>
+    <string name="puerto_rico">Puerto Rico</string>
+    <string name="qatar">Qatar</string>
+    <string name="republic_congo">Republic of the Congo</string>
+    <string name="romania">Romania</string>
+    <string name="russia">Russia</string>
+    <string name="rwanda">Rwanda</string>
+    <string name="saint_kitts_nevis">Saint Kitts and Nevis</string>
+    <string name="saint_lucia">Saint Lucia</string>
+    <string name="saint_vincent_grenadines">Saint Vincent and the Grenadines</string>
+    <string name="samoa">Samoa</string>
+    <string name="san_marino">San Marino</string>
+    <string name="sao_tome_principe">Sao Tome and Principe</string>
+    <string name="saudi_arabia">Saudi Arabia</string>
+    <string name="senegal">Senegal</string>
+    <string name="serbia">Serbia</string>
+    <string name="seychelles">Seychelles</string>
+    <string name="sierra_leone">Sierra Leone</string>
+    <string name="singapore">Singapore</string>
+    <string name="slovakia">Slovakia</string>
+    <string name="slovenia">Slovenia</string>
+    <string name="solomon_islands">Solomon Islands</string>
+    <string name="somalia">Somalia</string>
+    <string name="south_africa">South Africa</string>
+    <string name="south_korea">South Korea</string>
+    <string name="south_sudan">South Sudan</string>
+    <string name="spain">Spain</string>
+    <string name="sri_lanka">Sri Lanka</string>
+    <string name="sudan">Sudan</string>
+    <string name="suriname">Suriname</string>
+    <string name="sweden">Sweden</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="syria">Syria</string>
+    <string name="taiwan">Taiwan</string>
+    <string name="tajikistan">Tajikistan</string>
+    <string name="tanzania">Tanzania</string>
+    <string name="thailand">Thailand</string>
+    <string name="togo">Togo</string>
+    <string name="tonga">Tonga</string>
+    <string name="trinidad_tobago">Trinidad and Tobago</string>
+    <string name="tunisia">Tunisia</string>
+    <string name="turkey">Turkey</string>
+    <string name="turkmenistan">Turkmenistan</string>
+    <string name="tuvalu">Tuvalu</string>
+    <string name="uganda">Uganda</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="united_arab_emirates">United Arab Emirates</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="united_states">United States</string>
+    <string name="uruguay">Uruguay</string>
+    <string name="uzbekistan">Uzbekistan</string>
+    <string name="vanuatu">Vanuatu</string>
+    <string name="vatican">Vatican</string>
+    <string name="venezuela">Venezuela</string>
+    <string name="vietnam">Vietnam</string>
+    <string name="western_sahara">Western Sahara</string>
+    <string name="yemen">Yemen</string>
+    <string name="zambia">Zambia</string>
+    <string name="zimbabwe">Zimbabwe</string>
+
+    <string-array name="time_formats">
+        <item>24-hour format</item>
+        <item>12-hour format</item>
+    </string-array>
+
+    <string-array name="date_formats">
+        <item>dd.mm.yyyy</item>
+        <item>dd.mm.yy</item>
+        <item>dd/mm/yyyy</item>
+        <item>dd/mm/yy</item>
+        <item>dd-mm-yyyy</item>
+        <item>dd-mm-yy</item>
+        <item>mm.dd.yyyy</item>
+        <item>mm.dd.yy</item>
+        <item>mm/dd/yyyy</item>
+        <item>mm/dd/yy</item>
+        <item>mm-dd-yyyy</item>
+        <item>mm-dd-yy</item>
+    </string-array>
+
+    <string-array name="notifications_settings">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+
+    <string-array name="notifications_schedule">
+        <item>On time</item>
+        <item>5 mins. earlier</item>
+        <item>5 mins. earlier + On time</item>
+        <item>10 mins. earlier</item>
+        <item>10 mins. earlier + On time</item>
+        <item>10 mins. + 5 mins. earlier</item>
+        <item>15 mins. earlier</item>
+        <item>15 mins. earlier + On time</item>
+        <item>15 mins. + 5 mins. earlier</item>
+        <item>15 mins. + 10 mins. earlier</item>
+        <item>30 mins. earlier</item>
+        <item>30 mins. earlier + On time</item>
+        <item>30 mins. + 5 mins. earlier</item>
+        <item>30 mins. + 10 mins. earlier</item>
+        <item>30 mins. + 15 mins. earlier</item>
+        <item>1 hr. earlier</item>
+        <item>1 hr. earlier + On time</item>
+        <item>1 hr. + 5 mins. earlier</item>
+        <item>1 hr. + 10 mins. earlier</item>
+        <item>1 hr. + 15 mins. earlier</item>
+        <item>1 hr. + 30 mins. earlier</item>
+        <item>2 hrs. earlier</item>
+        <item>2 hrs. earlier + On time</item>
+        <item>2 hrs. + 5 mins. earlier</item>
+        <item>2 hrs. + 10 mins. earlier</item>
+        <item>2 hrs. + 15 mins. earlier</item>
+        <item>2 hrs. + 30 mins. earlier</item>
+        <item>2 hrs. + 1 hr. earlier</item>
+        <item>3 hrs. earlier</item>
+        <item>3 hrs. earlier + On time</item>
+        <item>3 hrs. + 5 mins. earlier</item>
+        <item>3 hrs. + 10 mins. earlier</item>
+        <item>3 hrs. + 15 mins. earlier</item>
+        <item>3 hrs. + 30 mins. earlier</item>
+        <item>3 hrs. + 1 hr. earlier</item>
+        <item>3 hrs. + 2 hrs. earlier</item>
+        <item>6 hrs. earlier</item>
+        <item>6 hrs. earlier + On time</item>
+        <item>6 hrs. + 5 mins. earlier</item>
+        <item>6 hrs. + 10 mins. earlier</item>
+        <item>6 hrs. + 15 mins. earlier</item>
+        <item>6 hrs. + 30 mins. earlier</item>
+        <item>6 hrs. + 1 hr. earlier</item>
+        <item>6 hrs. + 2 hrs. earlier</item>
+        <item>6 hrs. + 3 hrs. earlier</item>
+        <item>12 hrs. earlier</item>
+        <item>12 hrs. earlier + On time</item>
+        <item>12 hrs. + 5 mins. earlier</item>
+        <item>12 hrs. + 10 mins. earlier</item>
+        <item>12 hrs. + 15 mins. earlier</item>
+        <item>12 hrs. + 30 mins. earlier</item>
+        <item>12 hrs. + 1 hr. earlier</item>
+        <item>12 hrs. + 2 hrs. earlier</item>
+        <item>12 hrs. + 3 hrs. earlier</item>
+        <item>12 hrs. + 6 hrs. earlier</item>
+        <item>24 hrs. earlier</item>
+        <item>24 hrs. earlier + On time</item>
+        <item>24 hrs. + 5 mins. earlier</item>
+        <item>24 hrs. + 10 mins. earlier</item>
+        <item>24 hrs. + 15 mins. earlier</item>
+        <item>24 hrs. + 30 mins. earlier</item>
+        <item>24 hrs. + 1 hr. earlier</item>
+        <item>24 hrs. + 2 hrs. earlier</item>
+        <item>24 hrs. + 3 hrs. earlier</item>
+        <item>24 hrs. + 6 hrs. earlier</item>
+        <item>24 hrs. + 12 hrs. earlier</item>
+    </string-array>
+
+</resources>

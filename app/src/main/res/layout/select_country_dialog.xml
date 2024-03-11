@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_dialog"
+    android:outlineProvider="background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/scd_guideline1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/scd_guideline2" />
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@android:color/black"
+        app:mwhColorAlpha="0.6"
+        app:mwhIsRunning="false"
+        app:mwhStartColor="@color/colorPrimary"
+        app:mwhVelocity="0.9"
+        app:mwhWaveHeight="@dimen/wave_height" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/large_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:text="@string/countries"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/scd_title_v_bias" />
+
+    <EditText
+        android:id="@+id/search_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/edit_text_s_margin"
+        android:layout_marginEnd="@dimen/edit_text_e_margin"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="@dimen/edit_text_drawable_padding"
+        android:fontFamily="monospace"
+        android:hint="@string/search"
+        android:inputType="textCapSentences"
+        android:padding="@dimen/edit_text_padding"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorTextBlack"
+        android:textColorHint="@color/hint_selector"
+        android:textSize="@dimen/edit_text_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/country_ListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="@fraction/v_bias_100"
+        tools:ignore="Autofill,TouchTargetSizeCheck" />
+
+    <ListView
+        android:id="@+id/country_ListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/country_e_margin"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <View
+        android:id="@+id/white_View"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="@dimen/scd_progress_bar_size"
+        android:layout_height="@dimen/scd_progress_bar_size"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

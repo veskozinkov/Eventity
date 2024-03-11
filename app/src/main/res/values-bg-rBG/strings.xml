@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_address">Имейл адрес</string>
+    <string name="password">Парола</string>
+    <string name="proceed">Продължи</string>
+    <string name="signIn">Влизане</string>
+    <string name="forgotten_password">Забравена парола?</string>
+    <string name="create_new_account">Нов потребител? Натиснете тук!</string>
+    <string name="resend_confirmation_email">Преизпращане на имейл</string>
+    <string name="signUp">Регистрация</string>
+    <string name="first_name">Име</string>
+    <string name="last_name">Фамилия</string>
+    <string name="existing_account">Вече имате акаунт? Натиснете тук!</string>
+    <string name="account">Акаунт</string>
+    <string name="change">Промяна</string>
+    <string name="name">Име:</string>
+    <string name="email_address2">Имейл адрес:</string>
+    <string name="password2">Парола:</string>
+    <string name="signOut">Излизане</string>
+    <string name="delete">Изтриване</string>
+    <string name="fragment_title1">Миналата седмица</string>
+    <string name="fragment_title2">Тази седмица</string>
+    <string name="fragment_title3">Следващата седмица</string>
+    <string name="fragment_title4">Други събития</string>
+    <string name="fragment_title5">Събития</string>
+    <string name="monday">Понеделник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Сряда</string>
+    <string name="thursday">Четвъртък</string>
+    <string name="friday">Петък</string>
+    <string name="saturday">Събота</string>
+    <string name="sunday">Неделя</string>
+    <string name="information">Информация</string>
+    <string name="details">Детайли</string>
+    <string name="date">Дата</string>
+    <string name="day">Ден</string>
+    <string name="time">Час</string>
+    <string name="back">Назад</string>
+    <string name="ok">ОК</string>
+    <string name="are_you_sure">Сигурни ли сте?</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="delete_account">Изтриване на акаунт</string>
+    <string name="other_settings">Други настройки</string>
+    <string name="confirmation">Потвърждение</string>
+    <string name="delete_account_message">* Ако желаете да продължите, напишете думата \"изтриване\" като потвърждение. След това цялата информация за акаунта Ви ще бъде изтрита.</string>
+    <string name="send">Изпращане</string>
+    <string name="reset_password_message">* Ще Ви бъде изпратен имейл, за да зададете нова парола.</string>
+    <string name="change_email">Смяна на имейл</string>
+    <string name="change_name">Смяна на име</string>
+    <string name="change_password">Смяна на парола</string>
+    <string name="current_password">Текуща парола</string>
+    <string name="new_password">Нова Парола</string>
+    <string name="wrong_password">Грешна парола!</string>
+    <string name="empty_field_error_message">Полето не е попълнено!</string>
+    <string name="max_info_length_error_message">Информацията е ограничена до %1$d символа!</string>
+    <string name="confirmation_word">изтриване</string>
+    <string name="wrong_confirmation_word_error_message">Грешна дума за потвърждение!</string>
+    <string name="max_name_length_error_message">Името е ограничено до %1$d символа!</string>
+    <string name="min_password_length_error_message">Трябва да въведете поне %1$d символа!</string>
+    <string name="email_address_not_confirmed">Имейл адресът не е потвърден.</string>
+    <string name="wrong_email_address_or_password">Грешни данни!</string>
+    <string name="email_address_in_use">Имейл адресът се използва от друг акаунт!</string>
+    <string name="account_active_on_another_device">Акаунтът е активен на друго устройство. Моля, използвайте него или просто влезте отново.</string>
+    <string name="change_password_warning_message">Ако не Вие сте влезли в акаунта от друго устройство, моля, променете паролата си незабавно.</string>
+    <string name="confirmation_email_sent_to">Беше изпратен имейл за потвърждение до</string>
+    <string name="confirmation_email_sent_to_error">Възникна проблем при изпращането на имейл за потвърждение до</string>
+    <string name="try_again_later">Моля, опитайте отново по-късно.</string>
+    <string name="account_created_successfully">Акаунтът беше създаден успешно!</string>
+    <string name="account_not_created_successfully">Възникна проблем при създаването на акаунта.</string>
+    <string name="invalid_date">Невалидна дата!</string>
+    <string name="account_deleted_successfully">Акаунтът беше изтрит успешно!</string>
+    <string name="account_not_deleted_successfully">Възникна проблем при изтриването на акаунта!</string>
+    <string name="email_sent_successfully">Имейлът беше изпратен успешно!</string>
+    <string name="email_not_sent_successfully">Възникна проблем при изпращането на имейла!</string>
+    <string name="email_address_changed_successfully">Имайл адресът беше променен успешно!</string>
+    <string name="email_address_not_changed_successfully">Възникна проблем при промяната на имейл адреса!</string>
+    <string name="name_changed_successfully">Името беше променено успешно!</string>
+    <string name="name_not_changed_successfully">Възникна проблем при промяната на името!</string>
+    <string name="password_changed_successfully">Паролата беше променена успешно!</string>
+    <string name="password_not_changed_successfully">Възникна проблем при промяната на паролата!</string>
+    <string name="select_country_info_message">Моля, изберете държава.</string>
+    <string name="select_country">Изберете държава</string>
+    <string name="countries">Държави</string>
+    <string name="search">Търсене</string>
+    <string name="no_internet">Нямате връзка с интернет!</string>
+    <string name="problem_with_server">Възникна проблем със сървъра!</string>
+    <string name="country_changed_successfully">Държавата беше променена успешно!</string>
+    <string name="country_not_changed_successfully">Възникна проблем при промяната на държавата!</string>
+    <string name="chosen_country_will_soon_be_updated">Информацията за избраната от Вас държава скоро ще бъде актуализирана, така че към този момент промяната е невъзможна.</string>
+    <string name="info_will_soon_be_updated">Информацията Ви скоро ще бъде актуализирана, така че към този момент промяната е невъзможна.</string>
+    <string name="connection_lost_while_signing_in_error_message1">Нямате достъп до страницата за настройки, защото връзката Ви с интернет беше загубена по време на последното влизане в акаунта!</string>
+    <string name="connection_lost_while_signing_in_error_message2">Връзката Ви с интернет беше загубена по време на последното влизане в акаунта!</string>
+    <string name="connection_lost_while_signing_in_info_message1">Ако все още не сте го направили, моля, установете стабилна връзка и изчакайте, докато приложението не Ви изкара от акаунта автоматично, за да се коригират евентуални проблеми с файловете.</string>
+    <string name="connection_lost_while_signing_in_info_message2">Ако автоматичното излизане отнеме повече от 2 минути, можете да опитате ръчно да затворите приложението и след това да го отворите отново.</string>
+    <string name="connection_lost_while_signing_in_info_message3">Можете да натиснете бутона за настройки, за да видите отново всички съобщения.</string>
+    <string name="connection_lost_while_signing_up_error">Връзката Ви с интернет беше загубена по време на създаването на акаунта!</string>
+    <string name="connection_lost_while_signing_up_info_message1">Сега той ще бъде изтрит автоматично, за да се коригират евентуални проблеми.</string>
+    <string name="connection_lost_while_signing_up_info_message2">Ако все още не сте го направили, моля, установете стабилна връзка и опитайте да го създадете отново.</string>
+    <string name="notification_channel_name">Известия</string>
+    <string name="notification_channel_description">Това е каналът, който се използва за изпращане на известия за всички запазени събития!</string>
+    <string name="time_format">Формат на времето:</string>
+    <string name="date_format">Формат на датата:</string>
+    <string name="notifications1">Известия:</string>
+    <string name="notifications_schedule">График на известията:</string>
+    <string name="notifications2">Известия</string>
+    <string name="info_character_limit">Лимит на знаците за информация: %1$d</string>
+    <string name="events_per_day_limit">Лимит на дневни/др. събития: %1$d/%2$d</string>
+    <string name="events_per_day_limit_info_message1">Достигнахте лимита от %1$d събития за текущо избрания ден. Можете да го покачите в диалога \"Други настройки\".</string>
+    <string name="events_per_day_limit_info_message2">Достигнахте лимита от %1$d събития за текущо избрания ден.</string>
+    <string name="other_events_limit_info_message1">Достигнахте лимита от %1$d събития, които могат да бъдат запазени като други събития. Можете да го покачите в диалога \"Други настройки\".</string>
+    <string name="other_events_limit_info_message2">Достигнахте лимита от %1$d събития, които могат да бъдат запазени като други събития.</string>
+    <string name="increase">Покачване</string>
+    <string name="decrease">Намаляне</string>
+    <string name="saving_settings_error">Възникна проблем при запазването на избора Ви!</string>
+    <string name="time_already_exists_error">Вече съществува събитие с посочения от Вас час!</string>
+    <string name="date_and_time_already_exist_error">Вече съществува събитие с посочените от Вас дата и час!</string>
+    <string name="new_information">Нова информация</string>
+    <string name="new_email_address">Нов имейл адрес</string>
+    <string name="on_time">Навреме</string>
+    <string name="early_5_mins">5 мин. по-рано</string>
+    <string name="early_10_mins">10 мин. по-рано</string>
+    <string name="early_15_mins">15 мин. по-рано</string>
+    <string name="early_30_mins">30 мин. по-рано</string>
+    <string name="early_1_hr">1 ч. по-рано</string>
+    <string name="early_2_hrs">2 ч. по-рано</string>
+    <string name="early_3_hrs">3 ч. по-рано</string>
+    <string name="early_6_hrs">6 ч. по-рано</string>
+    <string name="early_12_hrs">12 ч. по-рано</string>
+    <string name="early_24_hrs">24 ч. по-рано</string>
+    <string name="off">Изключено</string>
+    <string name="on_time_notification_title">Имате насрочено събитие!</string>
+    <string name="early_5_mins_notification_title">Имате насрочено събитие след 5 минути!</string>
+    <string name="early_10_mins_notification_title">Имате насрочено събитие след 10 минути!</string>
+    <string name="early_15_mins_notification_title">Имате насрочено събитие след 15 минути!</string>
+    <string name="early_30_mins_notification_title">Имате насрочено събитие след 30 минути!</string>
+    <string name="early_1_hr_notification_title">Имате насрочено събитие след 1 час!</string>
+    <string name="early_2_hrs_notification_title">Имате насрочено събитие след 2 часа!</string>
+    <string name="early_3_hrs_notification_title">Имате насрочено събитие след 3 часа!</string>
+    <string name="early_6_hrs_notification_title">Имате насрочено събитие след 6 часа!</string>
+    <string name="early_12_hrs_notification_title">Имате насрочено събитие след 12 часа!</string>
+    <string name="early_24_hrs_notification_title">Имате насрочено събитие след 24 часа!</string>
+    <string name="notifications_disabled">Известията за това приложение в момента са деактивирани в настройките на устройството! За да работят, ще трябва ръчно да ги активирате от там!</string>
+    <string name="notification_channel_disabled">Основният канал за известия на това приложение в момента е деактивиран в настройките на устройството! За да работят те, ще трябва ръчно да го активирате от там!</string>
+    <string name="auto_time_turned_off">Автоматичното задаване на дата и час е изключено</string>
+    <string name="turn_on">Включване</string>
+    <string name="auto_time_message">* Моля, включете тази настройка! В противен случай приложението няма да работи правилно.</string>
+    <string name="delete_all_saved_events">Изтриване на всички запазени събития</string>
+    <string name="delete_all_saved_events_message">* Възможно е да използвате този диалог и ако се появи някакво странно поведение при взаимодействие със събитията, което не изчезва след излизане и повторно влизане в акаунта.</string>
+    <string name="all_saved_events_deleted_successfully">Всички запазени събития бяха изтрити успешно!</string>
+    <string name="all_saved_events_not_deleted_successfully">Възникна проблем при изтриването на всички запазени събития!</string>
+    <string name="try_again_in_a_few_minutes">Моля, опитайте отново след няколко минути!</string>
+    <string name="second_notification">Второ известие:</string>
+    <string name="at_oclock">В %1$s</string>
+    <string name="billing_error">Възникна проблем с фактурирането!</string>
+    <string name="select_country_dialog_warning_message">Важно! Моля, изберете държавата, в която планирате да използвате приложението!</string>
+    <string name="sw_less_than_360dp_warning_message">Не се поддържат ширини на екрана под 360 пиксела, независими от плътността!</string>
+    <string name="sw_less_than_360dp_info_message">Моля, опитайте да изберете различна стойност за мащабиране на екрана в настройките на устройството.</string>
+    <string name="afghanistan">Афганистан</string>
+    <string name="albania">Албания</string>
+    <string name="аlgeria">Алжир</string>
+    <string name="american_samoa">Американска Самоа</string>
+    <string name="andorra">Андора</string>
+    <string name="angola">Ангола</string>
+    <string name="antarctica">Антарктика</string>
+    <string name="antigua_barbuda">Антигуа и Барбуда</string>
+    <string name="argentina">Аржентина</string>
+    <string name="armenia">Армения</string>
+    <string name="aruba">Аруба</string>
+    <string name="australia">Австралия</string>
+    <string name="austria">Австрия</string>
+    <string name="azerbaijan">Азербайджан</string>
+    <string name="bahamas">Бахами</string>
+    <string name="bahrain">Бахрейн</string>
+    <string name="bangladesh">Бангладеш</string>
+    <string name="barbados">Барбадос</string>
+    <string name="belarus">Беларус</string>
+    <string name="belgium">Белгия</string>
+    <string name="belize">Белиз</string>
+    <string name="benin">Бенин</string>
+    <string name="bhutan">Бутан</string>
+    <string name="bolivia">Боливия</string>
+    <string name="bosnia_herzegovina">Босна и Херцеговина</string>
+    <string name="botswana">Ботсвана</string>
+    <string name="brazil">Бразилия</string>
+    <string name="brunei">Бруней</string>
+    <string name="bulgaria">България</string>
+    <string name="burkina_faso">Буркина Фасо</string>
+    <string name="burundi">Бурунди</string>
+    <string name="cambodia">Камбоджа</string>
+    <string name="cameroon">Камерун</string>
+    <string name="canada">Канада</string>
+    <string name="cape_verde">Кабо Верде</string>
+    <string name="central_african_republic">Централноафриканска република</string>
+    <string name="chad">Чад</string>
+    <string name="chile">Чили</string>
+    <string name="china">Китай</string>
+    <string name="christmas_island">Остров Рождество</string>
+    <string name="cocos_islands">Кокосови острови</string>
+    <string name="colombia">Колумбия</string>
+    <string name="comoros">Коморски острови</string>
+    <string name="costa_rica">Коста Рика</string>
+    <string name="croatia">Хърватия</string>
+    <string name="cuba">Куба</string>
+    <string name="curacao">Кюрасао</string>
+    <string name="cyprus">Кипър</string>
+    <string name="czech_republic">Чехия</string>
+    <string name="democratic_republic_congo">Демократична република Конго</string>
+    <string name="denmark">Дания</string>
+    <string name="djibouti">Джибути</string>
+    <string name="dominica">Доминика</string>
+    <string name="dominican_republic">Доминиканска република</string>
+    <string name="east_timor">Източен Тимор</string>
+    <string name="ecuador">Еквадор</string>
+    <string name="egypt">Египет</string>
+    <string name="el_salvador">Ел Салвадор</string>
+    <string name="equatorial_guinea">Екваториална Гвинея</string>
+    <string name="eritrea">Еритрея</string>
+    <string name="estonia">Естония</string>
+    <string name="ethiopia">Етиопия</string>
+    <string name="faroe_islands">Фарьорски острови</string>
+    <string name="fiji">Фиджи</string>
+    <string name="finland">Финландия</string>
+    <string name="france">Франция</string>
+    <string name="french_polynesia">Френска Полинезия</string>
+    <string name="gabon">Габон</string>
+    <string name="gambia">Гамбия</string>
+    <string name="georgia">Грузия</string>
+    <string name="germany">Германия</string>
+    <string name="ghana">Гана</string>
+    <string name="gibraltar">Гибралтар</string>
+    <string name="greece">Гърция</string>
+    <string name="greenland">Гренландия</string>
+    <string name="grenada">Гренада</string>
+    <string name="guam">Гуам</string>
+    <string name="guatemala">Гватемала</string>
+    <string name="guinea">Гвинея</string>
+    <string name="guinea_bissau">Гвинея-Бисау</string>
+    <string name="guyana">Гвиана</string>
+    <string name="haiti">Хаити</string>
+    <string name="honduras">Хондурас</string>
+    <string name="hong_kong">Хонг Конг</string>
+    <string name="hungary">Унгария</string>
+    <string name="iceland">Исландия</string>
+    <string name="india">Индия</string>
+    <string name="indonesia">Индонезия</string>
+    <string name="iran">Иран</string>
+    <string name="iraq">Ирак</string>
+    <string name="ireland">Ирландия</string>
+    <string name="israel">Израел</string>
+    <string name="italy">Италия</string>
+    <string name="ivory_coast">Кот д\'Ивоар</string>
+    <string name="jamaica">Ямайка</string>
+    <string name="japan">Япония</string>
+    <string name="jordan">Йордания</string>
+    <string name="kazakhstan">Казахстан</string>
+    <string name="kenya">Кения</string>
+    <string name="kiribati">Кирибати</string>
+    <string name="kuwait">Кувейт</string>
+    <string name="kyrgyzstan">Киргизстан</string>
+    <string name="laos">Лаос</string>
+    <string name="latvia">Латвия</string>
+    <string name="lebanon">Ливан</string>
+    <string name="lesotho">Лесото</string>
+    <string name="liberia">Либерия</string>
+    <string name="libya">Либия</string>
+    <string name="liechtenstein">Лихтенщайн</string>
+    <string name="lithuania">Литва</string>
+    <string name="luxembourg">Люксембург</string>
+    <string name="macao">Макао</string>
+    <string name="north_macedonia">Северна Македония</string>
+    <string name="madagascar">Мадагаскар</string>
+    <string name="malawi">Малави</string>
+    <string name="malaysia">Малайзия</string>
+    <string name="maldives">Малдиви</string>
+    <string name="mali">Мали</string>
+    <string name="malta">Малта</string>
+    <string name="marshall_islands">Маршалови острови</string>
+    <string name="mauritania">Мавритания</string>
+    <string name="mauritius">Мавриций</string>
+    <string name="mexico">Мексико</string>
+    <string name="micronesia">Микронезия</string>
+    <string name="moldova">Молдова</string>
+    <string name="monaco">Монако</string>
+    <string name="mongolia">Монголия</string>
+    <string name="montenegro">Черна гора</string>
+    <string name="morocco">Мароко</string>
+    <string name="mozambique">Мозамбик</string>
+    <string name="myanmar">Мианмар</string>
+    <string name="namibia">Намибия</string>
+    <string name="nauru">Науру</string>
+    <string name="nepal">Непал</string>
+    <string name="netherlands">Нидерландия</string>
+    <string name="new_caledonia">Нова Каледония</string>
+    <string name="new_zealand">Нова Зеландия</string>
+    <string name="nicaragua">Никарагуа</string>
+    <string name="niger">Нигер</string>
+    <string name="nigeria">Нигерия</string>
+    <string name="niue">Ниуе</string>
+    <string name="north_korea">Северна Корея</string>
+    <string name="northern_mariana_islands">Северни Мариански острови</string>
+    <string name="norway">Норвегия</string>
+    <string name="oman">Оман</string>
+    <string name="pakistan">Пакистан</string>
+    <string name="palau">Палау</string>
+    <string name="palestine">Палестина</string>
+    <string name="panama">Панама</string>
+    <string name="papua_new_guinea">Папуа Нова Гвинея</string>
+    <string name="paraguay">Парагвай</string>
+    <string name="peru">Перу</string>
+    <string name="philippines">Филипини</string>
+    <string name="poland">Полша</string>
+    <string name="portugal">Португалия</string>
+    <string name="puerto_rico">Пуерто Рико</string>
+    <string name="qatar">Катар</string>
+    <string name="republic_congo">Република Конго</string>
+    <string name="romania">Румъния</string>
+    <string name="russia">Русия</string>
+    <string name="rwanda">Руанда</string>
+    <string name="saint_kitts_nevis">Сейнт Китс и Невис</string>
+    <string name="saint_lucia">Сейнт Лусия</string>
+    <string name="saint_vincent_grenadines">Сейнт Винсент и Гренадини</string>
+    <string name="samoa">Самоа</string>
+    <string name="san_marino">Сан Марино</string>
+    <string name="sao_tome_principe">Сао Томе и Принсипи</string>
+    <string name="saudi_arabia">Саудитска Арабия</string>
+    <string name="senegal">Сенегал</string>
+    <string name="serbia">Сърбия</string>
+    <string name="seychelles">Сейшели</string>
+    <string name="sierra_leone">Сиера Леоне</string>
+    <string name="singapore">Сингапур</string>
+    <string name="slovakia">Словакия</string>
+    <string name="slovenia">Словения</string>
+    <string name="solomon_islands">Соломонови острови</string>
+    <string name="somalia">Сомалия</string>
+    <string name="south_africa">Южна Африка</string>
+    <string name="south_korea">Южна Корея</string>
+    <string name="south_sudan">Южен Судан</string>
+    <string name="spain">Испания</string>
+    <string name="sri_lanka">Шри Ланка</string>
+    <string name="sudan">Судан</string>
+    <string name="suriname">Суринам</string>
+    <string name="sweden">Швеция</string>
+    <string name="switzerland">Швейцария</string>
+    <string name="syria">Сирия</string>
+    <string name="taiwan">Тайван</string>
+    <string name="tajikistan">Таджикистан</string>
+    <string name="tanzania">Танзания</string>
+    <string name="thailand">Тайланд</string>
+    <string name="togo">Того</string>
+    <string name="tonga">Тонга</string>
+    <string name="trinidad_tobago">Тринидад и Тобаго</string>
+    <string name="tunisia">Тунис</string>
+    <string name="turkey">Турция</string>
+    <string name="turkmenistan">Туркменистан</string>
+    <string name="tuvalu">Тувалу</string>
+    <string name="uganda">Уганда</string>
+    <string name="ukraine">Украйна</string>
+    <string name="united_arab_emirates">Обединени арабски емирства</string>
+    <string name="united_kingdom">Великобритания</string>
+    <string name="united_states">Съединени щати</string>
+    <string name="uruguay">Уругвай</string>
+    <string name="uzbekistan">Узбекистан</string>
+    <string name="vanuatu">Вануату</string>
+    <string name="vatican">Ватикана</string>
+    <string name="venezuela">Венецуела</string>
+    <string name="vietnam">Виетнам</string>
+    <string name="western_sahara">Западна Сахара</string>
+    <string name="yemen">Йемен</string>
+    <string name="zambia">Замбия</string>
+    <string name="zimbabwe">Зимбабве</string>
+
+    <string-array name="time_formats">
+        <item>24-часов формат</item>
+        <item>12-часов формат</item>
+    </string-array>
+
+    <string-array name="date_formats">
+        <item>дд.мм.гггг</item>
+        <item>дд.мм.гг</item>
+        <item>дд/мм/гггг</item>
+        <item>дд/мм/гг</item>
+        <item>дд-мм-гггг</item>
+        <item>дд-мм-гг</item>
+        <item>мм.дд.гггг</item>
+        <item>мм.дд.гг</item>
+        <item>мм/дд/гггг</item>
+        <item>мм/дд/гг</item>
+        <item>мм-дд-гггг</item>
+        <item>мм-дд-гг</item>
+    </string-array>
+
+    <string-array name="notifications_settings">
+        <item>Включени</item>
+        <item>Изключени</item>
+    </string-array>
+
+    <string-array name="notifications_schedule">
+        <item>Навреме</item>
+        <item>5 мин. по-рано</item>
+        <item>5 мин. по-рано + Навреме</item>
+        <item>10 мин. по-рано</item>
+        <item>10 мин. по-рано + Навреме</item>
+        <item>10 мин. + 5 мин. по-рано</item>
+        <item>15 мин. по-рано</item>
+        <item>15 мин. по-рано + Навреме</item>
+        <item>15 мин. + 5 мин. по-рано</item>
+        <item>15 мин. + 10 мин. по-рано</item>
+        <item>30 мин. по-рано</item>
+        <item>30 мин. по-рано + Навреме</item>
+        <item>30 мин. + 5 мин. по-рано</item>
+        <item>30 мин. + 10 мин. по-рано</item>
+        <item>30 мин. + 15 мин. по-рано</item>
+        <item>1 ч. по-рано</item>
+        <item>1 ч. по-рано + Навреме</item>
+        <item>1 ч. + 5 мин. по-рано</item>
+        <item>1 ч. + 10 мин. по-рано</item>
+        <item>1 ч. + 15 мин. по-рано</item>
+        <item>1 ч. + 30 мин. по-рано</item>
+        <item>2 ч. по-рано</item>
+        <item>2 ч. по-рано + Навреме</item>
+        <item>2 ч. + 5 мин. по-рано</item>
+        <item>2 ч. + 10 мин. по-рано</item>
+        <item>2 ч. + 15 мин. по-рано</item>
+        <item>2 ч. + 30 мин. по-рано</item>
+        <item>2 ч. + 1 ч. по-рано</item>
+        <item>3 ч. по-рано</item>
+        <item>3 ч. по-рано + Навреме</item>
+        <item>3 ч. + 5 мин. по-рано</item>
+        <item>3 ч. + 10 мин. по-рано</item>
+        <item>3 ч. + 15 мин. по-рано</item>
+        <item>3 ч. + 30 мин. по-рано</item>
+        <item>3 ч. + 1 ч. по-рано</item>
+        <item>3 ч. + 2 ч. по-рано</item>
+        <item>6 ч. по-рано</item>
+        <item>6 ч. по-рано + Навреме</item>
+        <item>6 ч. + 5 мин. по-рано</item>
+        <item>6 ч. + 10 мин. по-рано</item>
+        <item>6 ч. + 15 мин. по-рано</item>
+        <item>6 ч. + 30 мин. по-рано</item>
+        <item>6 ч. + 1 ч. по-рано</item>
+        <item>6 ч. + 2 ч. по-рано</item>
+        <item>6 ч. + 3 ч. по-рано</item>
+        <item>12 ч. по-рано</item>
+        <item>12 ч. по-рано + Навреме</item>
+        <item>12 ч. + 5 мин. по-рано</item>
+        <item>12 ч. + 10 мин. по-рано</item>
+        <item>12 ч. + 15 мин. по-рано</item>
+        <item>12 ч. + 30 мин. по-рано</item>
+        <item>12 ч. + 1 ч. по-рано</item>
+        <item>12 ч. + 2 ч. по-рано</item>
+        <item>12 ч. + 3 ч. по-рано</item>
+        <item>12 ч. + 6 ч. по-рано</item>
+        <item>24 ч. по-рано</item>
+        <item>24 ч. по-рано + Навреме</item>
+        <item>24 ч. + 5 мин. по-рано</item>
+        <item>24 ч. + 10 мин. по-рано</item>
+        <item>24 ч. + 15 мин. по-рано</item>
+        <item>24 ч. + 30 мин. по-рано</item>
+        <item>24 ч. + 1 ч. по-рано</item>
+        <item>24 ч. + 2 ч. по-рано</item>
+        <item>24 ч. + 3 ч. по-рано</item>
+        <item>24 ч. + 6 ч. по-рано</item>
+        <item>24 ч. + 12 ч. по-рано</item>
+    </string-array>
+
+</resources>

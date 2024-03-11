@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/onTime_Item"
+        android:title="@string/on_time" />
+
+    <item android:id="@+id/early5mins_Item"
+        android:title="@string/early_5_mins">
+        <menu>
+            <item android:id="@+id/early5mins_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early5mins_onTime_Item"
+                android:title="@string/on_time" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early10mins_Item"
+        android:title="@string/early_10_mins">
+        <menu>
+            <item android:id="@+id/early10mins_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early10mins_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early10mins_early5mins_Item"
+                android:title="@string/early_5_mins" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early15mins_Item"
+        android:title="@string/early_15_mins">
+        <menu>
+            <item android:id="@+id/early15mins_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early15mins_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early15mins_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early15mins_early10mins_Item"
+                android:title="@string/early_10_mins" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early30mins_Item"
+        android:title="@string/early_30_mins">
+        <menu>
+            <item android:id="@+id/early30mins_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early30mins_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early30mins_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early30mins_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early30mins_early15mins_Item"
+                android:title="@string/early_15_mins" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early1hr_Item"
+        android:title="@string/early_1_hr">
+        <menu>
+            <item android:id="@+id/early1hr_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early1hr_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early1hr_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early1hr_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early1hr_early15mins_Item"
+                android:title="@string/early_15_mins" />
+
+            <item android:id="@+id/early1hr_early30mins_Item"
+                android:title="@string/early_30_mins" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early2hrs_Item"
+        android:title="@string/early_2_hrs">
+        <menu>
+            <item android:id="@+id/early2hrs_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early2hrs_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early2hrs_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early2hrs_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early2hrs_early15mins_Item"
+                android:title="@string/early_15_mins" />
+
+            <item android:id="@+id/early2hrs_early30mins_Item"
+                android:title="@string/early_30_mins" />
+
+            <item android:id="@+id/early2hrs_early1hr_Item"
+                android:title="@string/early_1_hr" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early3hrs_Item"
+        android:title="@string/early_3_hrs">
+        <menu>
+            <item android:id="@+id/early3hrs_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early3hrs_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early3hrs_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early3hrs_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early3hrs_early15mins_Item"
+                android:title="@string/early_15_mins" />
+
+            <item android:id="@+id/early3hrs_early30mins_Item"
+                android:title="@string/early_30_mins" />
+
+            <item android:id="@+id/early3hrs_early1hr_Item"
+                android:title="@string/early_1_hr" />
+
+            <item android:id="@+id/early3hrs_early2hrs_Item"
+                android:title="@string/early_2_hrs" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early6hrs_Item"
+        android:title="@string/early_6_hrs">
+        <menu>
+            <item android:id="@+id/early6hrs_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early6hrs_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early6hrs_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early6hrs_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early6hrs_early15mins_Item"
+                android:title="@string/early_15_mins" />
+
+            <item android:id="@+id/early6hrs_early30mins_Item"
+                android:title="@string/early_30_mins" />
+
+            <item android:id="@+id/early6hrs_early1hr_Item"
+                android:title="@string/early_1_hr" />
+
+            <item android:id="@+id/early6hrs_early2hrs_Item"
+                android:title="@string/early_2_hrs" />
+
+            <item android:id="@+id/early6hrs_early3hrs_Item"
+                android:title="@string/early_3_hrs" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early12hrs_Item"
+        android:title="@string/early_12_hrs">
+        <menu>
+            <item android:id="@+id/early12hrs_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early12hrs_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early12hrs_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early12hrs_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early12hrs_early15mins_Item"
+                android:title="@string/early_15_mins" />
+
+            <item android:id="@+id/early12hrs_early30mins_Item"
+                android:title="@string/early_30_mins" />
+
+            <item android:id="@+id/early12hrs_early1hr_Item"
+                android:title="@string/early_1_hr" />
+
+            <item android:id="@+id/early12hrs_early2hrs_Item"
+                android:title="@string/early_2_hrs" />
+
+            <item android:id="@+id/early12hrs_early3hrs_Item"
+                android:title="@string/early_3_hrs" />
+
+            <item android:id="@+id/early12hrs_early6hrs_Item"
+                android:title="@string/early_6_hrs" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/early24hrs_Item"
+        android:title="@string/early_24_hrs">
+        <menu>
+            <item android:id="@+id/early24hrs_notification_off"
+                android:title="@string/off" />
+
+            <item android:id="@+id/early24hrs_onTime_Item"
+                android:title="@string/on_time" />
+
+            <item android:id="@+id/early24hrs_early5mins_Item"
+                android:title="@string/early_5_mins" />
+
+            <item android:id="@+id/early24hrs_early10mins_Item"
+                android:title="@string/early_10_mins" />
+
+            <item android:id="@+id/early24hrs_early15mins_Item"
+                android:title="@string/early_15_mins" />
+
+            <item android:id="@+id/early24hrs_early30mins_Item"
+                android:title="@string/early_30_mins" />
+
+            <item android:id="@+id/early24hrs_early1hr_Item"
+                android:title="@string/early_1_hr" />
+
+            <item android:id="@+id/early24hrs_early2hrs_Item"
+                android:title="@string/early_2_hrs" />
+
+            <item android:id="@+id/early24hrs_early3hrs_Item"
+                android:title="@string/early_3_hrs" />
+
+            <item android:id="@+id/early24hrs_early6hrs_Item"
+                android:title="@string/early_6_hrs" />
+
+            <item android:id="@+id/early24hrs_early12hrs_Item"
+                android:title="@string/early_12_hrs" />
+        </menu>
+    </item>
+
+</menu>

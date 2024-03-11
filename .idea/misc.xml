@@ -1,0 +1,367 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/a_test.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/a_test2.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ad.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ae.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/af.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ag.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/al.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/am.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ao.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/aq.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ar.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/as.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/at.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/au.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/aw.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/az.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ba.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bb.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bd.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/be.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bf.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bg.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bh.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bi.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bj.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bn.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bo.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/br.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bs.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bt.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bw.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/by.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/bz.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ca.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cc.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cd.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cf.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cg.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ch.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ci.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cl.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cm.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cn.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/co.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cr.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cu.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cv.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cw.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cx.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cy.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/cz.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/de.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/dj.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/dk.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/dm.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/dom.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/dz.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ec.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ee.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/eg.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/eh.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/er.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/es.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/et.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/fi.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/fj.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/fm.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/fo.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/fr.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ga.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gb.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gd.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ge.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gh.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gi.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gl.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gm.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gn.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gq.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gr.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gt.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gu.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gw.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/gy.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/hk.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/hn.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/hr.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ht.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/hu.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic__3.xml" value="0.2565" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_add.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_additional_settings.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_back.xml" value="1.0" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_change_info.xml" value="2.05" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_check_mark.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_cross.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_delete_all_info.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_drop_down_arrow.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_drop_down_arrow_animated.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_drop_down_arrow_disabled.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_drop_up_arrow.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_email.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_error.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_info.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_info2.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_last_week.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_lock.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_next_week.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_notification_active.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_notification_off.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_notification_schedule.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_other_events.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_other_settings.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_person.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_search.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_settings.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_success.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_this_week.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ic_warning.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/id.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ie.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/il.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/in.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/info_card_gradient_0.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/info_card_gradient_180.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/information_card_gradient.xml" value="2.183333333333333" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/iq.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ir.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/is.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/it.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/jm.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/jo.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/jp.xml" value="1.9875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ke.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kg.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kh.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ki.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/km.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kn.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kp.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kw.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/kz.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/la.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lb.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lc.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/li.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lk.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ls.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lt.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lu.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/lv.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ly.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ma.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mc.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/md.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/me.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mg.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mh.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mk.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ml.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mm.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mn.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mo.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mp.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mt.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mu.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mv.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mw.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mx.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/my.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/mz.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/na.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/nc.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ne.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ng.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ni.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/nl.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/no.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/np.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/np_1.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/nr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/nu.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/nz.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/om.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pa.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pe.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pf.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pg.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ph.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pk.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pl.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ps.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pt.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/pw.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/py.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/qa.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/red_black_gradient_0.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/red_black_gradient_135.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/red_black_gradient_180.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/red_black_gradient_225.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/red_black_gradient_315.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/red_black_gradient_45.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ro.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/round_border.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/round_button.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/round_dialog.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/rs.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ru.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/rw.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sa.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sb.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sc.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sd.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/se.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sg.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/si.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sk.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sl.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sm.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sn.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/so.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/spinner_round_border.xml" value="2.254166666666667" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/spinner_round_border_disabled.xml" value="2.296875" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/spinner_round_border_with_arrow.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image_0.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image_135.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image_180.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image_225.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image_315.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_image_45.xml" value="0.256" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_screen_logo.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/splash_screen_logo2.xml" value="0.2565" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ss.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/st.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sv.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/sy.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/td.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tg.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/th.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/title_rect.xml" value="0.2525" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/title_square.xml" value="0.2525" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tj.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tl.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tm.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tn.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/to.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tr.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tt.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tv.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tw.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/tz.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ua.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ug.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/unknown.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/us.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/uy.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/uz.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/va.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/vc.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ve.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/vn.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/vu.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ws.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/ye.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/za.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/zm.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/drawable/zw.xml" value="1.9708333333333334" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/font/monospace_italic.xml" value="2.38125" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/activate_auto_time_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/activity_account_settings.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/activity_signin.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/add_change_info_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/add_change_info_dialog2.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/add_change_info_dialog2_12_hour.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/add_change_info_dialog2_24_hour.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/add_change_info_dialog_12_hour.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/add_change_info_dialog_24_hour.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/change_email_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/change_name_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/change_password_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/confirmation_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/country_list_adapter_view.xml" value="0.33" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/custom_notification_expanded.xml" value="0.67" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/custom_notification_normal.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/day_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/delete_account_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/delete_all_events_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/delete_all_info_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/information_list_adapter_view.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/notification_test.xml" value="1.6742424242424243" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/notification_test2.xml" value="1.6742424242424243" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/other_settings_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/password_reset_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/select_country_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/layout/week_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/menu/listview_info_changer.xml" value="0.33" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/menu/notification_changer.xml" value="0.25" />
+        <entry key="..\:/Users/vesko_mcocxp6/AndroidStudioProjects/ProjectM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.RecentlyNonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="5" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="org.jspecify.nullness.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="15">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="2" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="5" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+          <item index="14" class="java.lang.String" itemvalue="org.jspecify.nullness.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

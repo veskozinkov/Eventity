@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_dialog"
+    android:outlineProvider="background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/acid2_guideline1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/acid2_guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/acid2_guideline3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/acid2_guideline4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/buttons_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/acid2_guideline6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/acid2_guideline7" />
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@android:color/black"
+        app:mwhColorAlpha="0.6"
+        app:mwhIsRunning="false"
+        app:mwhStartColor="@color/colorPrimary"
+        app:mwhVelocity="0.9"
+        app:mwhWaveHeight="@dimen/wave_height" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/large_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:text="@string/new_information"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/acid2_title_v_bias" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/notification_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="@fraction/l_fab_button_h_bias2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_notification_active"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/notificationSchedule_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_fab_button_h_bias2"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_notification_schedule"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/info_TIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/edit_text_s_margin"
+        android:layout_marginTop="@dimen/v_bias_t_margin"
+        android:layout_marginEnd="@dimen/edit_text_e_margin"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/TIL_ErrorMessage"
+        app:errorTextColor="@color/colorError"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="@fraction/til_v_bias2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/til_edit_text_b_margin"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_info"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:fontFamily="monospace"
+            android:hint="@string/information"
+            android:inputType="textPersonName|textCapSentences"
+            android:padding="@dimen/edit_text_padding"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorTextBlack"
+            android:textColorHint="@color/hint_selector"
+            android:textSize="@dimen/edit_text_text_size"
+            android:textStyle="bold|italic"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/hour_NumberPicker"
+        android:layout_width="@dimen/num_picker_width"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="@fraction/l_num_picker_h_bias1_24_hour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_dividerDistance="@dimen/num_picker_divider_distance"
+        app:np_selectedTextAlign="selectedTextAlignCenter"
+        app:np_selectedTextSize="@dimen/num_picker_text_size"
+        app:np_textAlign="textAlignCenter"
+        app:np_textSize="@dimen/num_picker_text_size"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/year_NumberPicker"
+        android:layout_width="@dimen/num_picker_width"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_num_picker_h_bias2"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_dividerDistance="@dimen/num_picker_divider_distance"
+        app:np_selectedTextAlign="selectedTextAlignCenter"
+        app:np_selectedTextSize="@dimen/num_picker_text_size"
+        app:np_textAlign="textAlignCenter"
+        app:np_textSize="@dimen/num_picker_text_size"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/minutes_NumberPicker"
+        android:layout_width="@dimen/num_picker_width"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_num_picker_h_bias1_24_hour"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_dividerDistance="@dimen/num_picker_divider_distance"
+        app:np_selectedTextAlign="selectedTextAlignCenter"
+        app:np_selectedTextSize="@dimen/num_picker_text_size"
+        app:np_textAlign="textAlignCenter"
+        app:np_textSize="@dimen/num_picker_text_size"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/day_NumberPicker"
+        android:layout_width="@dimen/num_picker_width"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="@fraction/l_num_picker_h_bias2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_dividerDistance="@dimen/num_picker_divider_distance"
+        app:np_selectedTextAlign="selectedTextAlignCenter"
+        app:np_selectedTextSize="@dimen/num_picker_text_size"
+        app:np_textAlign="textAlignCenter"
+        app:np_textSize="@dimen/num_picker_text_size"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/month_NumberPicker"
+        android:layout_width="@dimen/num_picker_width"
+        android:layout_height="0dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_dividerDistance="@dimen/num_picker_divider_distance"
+        app:np_selectedTextAlign="selectedTextAlignCenter"
+        app:np_selectedTextSize="@dimen/num_picker_text_size"
+        app:np_textAlign="textAlignCenter"
+        app:np_textSize="@dimen/num_picker_text_size"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/cancel_Button"
+        android:layout_width="@dimen/buttons_width"
+        android:layout_height="@dimen/buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/back"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="@fraction/l_button_h_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/ok_Button"
+        android:layout_width="@dimen/buttons_width"
+        android:layout_height="@dimen/buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/ok"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_button_h_bias"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/colon_TextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/colon"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/colon_text_size"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/minutes_NumberPicker"
+        app:layout_constraintStart_toEndOf="@+id/hour_NumberPicker"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <TextView
+        android:id="@+id/dot1_TextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/dot"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/acid2_dot_text_size"
+        android:textStyle="bold"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/month_NumberPicker"
+        app:layout_constraintStart_toEndOf="@+id/day_NumberPicker"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <TextView
+        android:id="@+id/dot2_TextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/dot"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/acid2_dot_text_size"
+        android:textStyle="bold"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/year_NumberPicker"
+        app:layout_constraintStart_toEndOf="@+id/month_NumberPicker"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/cancel_Button"
+        app:layout_constraintEnd_toEndOf="@+id/ok_Button"
+        app:layout_constraintStart_toStartOf="@+id/cancel_Button"
+        app:layout_constraintTop_toTopOf="@+id/ok_Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

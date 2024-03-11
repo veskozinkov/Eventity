@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/fragment_list_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/fragment_title_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/df_guideline3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/df_guideline4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/df_guideline5" />
+
+    <ListView
+        android:id="@+id/day_ListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/list_view_divider_height"
+        android:listSelector="@android:color/transparent"
+        android:paddingTop="@dimen/list_view_t_padding"
+        android:paddingBottom="@dimen/list_view_b_padding"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1" />
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@android:color/black"
+        app:mwhColorAlpha="0.6"
+        app:mwhIsRunning="false"
+        app:mwhStartColor="@color/colorPrimary"
+        app:mwhVelocity="0.9"
+        app:mwhWaveHeight="@dimen/wave_height" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/large_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:text="@string/fragment_title5"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/v_bias_100" />
+
+    <TextView
+        android:id="@+id/subtitle_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:paddingBottom="@dimen/df_subtitle_b_padding"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/small_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/df_subtitle_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="@fraction/v_bias_0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_add"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="@fraction/l_fab_button_h_bias1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/accountSettings_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_fab_button_h_bias1"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_settings"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

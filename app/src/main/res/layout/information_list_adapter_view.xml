@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/info_layout_height"
+    android:descendantFocusability="blocksDescendants">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/info_CardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/card_s_margin"
+        android:layout_marginEnd="@dimen/card_e_margin"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/card_ConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_black_gradient_0">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline1" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline2" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline3" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline4" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline6" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline7" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="@fraction/ilav_guideline8" />
+
+            <ScrollView
+                android:id="@+id/details_ScrollView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/card_info_s_margin"
+                android:fillViewport="true"
+                android:nestedScrollingEnabled="true"
+                android:scrollbars="none"
+                app:layout_constrainedHeight="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/details_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:breakStrategy="balanced"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:text="@string/details"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_info_text_size"
+                    android:textStyle="bold|italic" />
+
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/dayDate_TextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="@dimen/small_text_shadowDx"
+                android:shadowDy="@dimen/small_text_shadowDy"
+                android:shadowRadius="@dimen/small_text_shadowRadius"
+                android:text="@string/date"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/card_date_text_size"
+                android:textStyle="bold|italic"
+                app:layout_constrainedHeight="true"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+            <TextView
+                android:id="@+id/time_TextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="@dimen/small_text_shadowDx"
+                android:shadowDy="@dimen/small_text_shadowDy"
+                android:shadowRadius="@dimen/small_text_shadowRadius"
+                android:text="@string/time"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/card_time_text_size"
+                android:textStyle="bold|italic"
+                app:layout_constrainedHeight="true"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+            <TextView
+                android:id="@+id/notifications_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="@dimen/small_text_shadowDx"
+                android:shadowDy="@dimen/small_text_shadowDy"
+                android:shadowRadius="@dimen/small_text_shadowRadius"
+                android:text="@string/notifications2"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/card_notification_text_size"
+                android:textStyle="bold|italic"
+                app:layout_constrainedHeight="true"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+            <TextView
+                android:id="@+id/numeration_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/saved_events_e_margin"
+                android:layout_marginBottom="@dimen/saved_events_b_margin"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="@dimen/saved_events_padding"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="@dimen/small_text_shadowDx"
+                android:shadowDy="@dimen/small_text_shadowDy"
+                android:shadowRadius="@dimen/small_text_shadowRadius"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/card_numeration_text_size"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="@fraction/h_bias_100"
+                app:layout_constraintStart_toStartOf="@+id/guideline1"
+                app:layout_constraintTop_toTopOf="@+id/guideline5"
+                app:layout_constraintVertical_bias="@fraction/v_bias_100" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

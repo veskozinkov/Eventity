@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vz.apps.dailyevents.AccountSettingsActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/activity_title_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/asa_guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/asa_guideline3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/asa_guideline4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/asa_guideline5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/buttons_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/asa_guideline7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/asa_guideline8" />
+
+    <Button
+        android:id="@+id/signout_Button"
+        android:layout_width="@dimen/buttons_width"
+        android:layout_height="@dimen/buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/signOut"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="@fraction/l_button_h_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/deleteAcc_Button"
+        android:layout_width="@dimen/buttons_width"
+        android:layout_height="@dimen/buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/delete"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_button_h_bias"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/changeName_Button"
+        android:layout_width="@dimen/small_buttons_width"
+        android:layout_height="@dimen/small_buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/change"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/small_buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/small_buttons_h_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/changeEmail_Button"
+        android:layout_width="@dimen/small_buttons_width"
+        android:layout_height="@dimen/small_buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/change"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/small_buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/small_buttons_h_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/changePassword_Button"
+        android:layout_width="@dimen/small_buttons_width"
+        android:layout_height="@dimen/small_buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/change"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/small_buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/small_buttons_h_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/selectCountry_Layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/country_e_margin"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="@fraction/asa_country_flag_guideline" />
+
+        <ImageView
+            android:id="@+id/flag_ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/unknown"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/country_TextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:gravity="start|center_vertical"
+            android:text="@string/select_country"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/country_text_size"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/name_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/display_info_label_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/changeName_Button"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="@fraction/display_info_label_v_bias" />
+
+    <HorizontalScrollView
+        android:id="@+id/name_HScrollView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/display_info_s_margin"
+        android:layout_marginEnd="@dimen/display_info_e_margin"
+        android:fadingEdgeLength="@dimen/display_info_fading_edge_size"
+        android:fillViewport="true"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/changeName_Button"
+        app:layout_constraintTop_toBottomOf="@+id/name_TextView"
+        app:layout_constraintVertical_bias="@fraction/display_info_v_bias">
+
+        <TextView
+            android:id="@+id/Name_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="@dimen/display_info_text_size"
+            android:textStyle="bold|italic" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/email_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/email_address2"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/display_info_label_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/changeEmail_Button"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="@fraction/display_info_label_v_bias"
+        tools:ignore="TextContrastCheck" />
+
+    <HorizontalScrollView
+        android:id="@+id/email_HScrollView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/display_info_s_margin"
+        android:layout_marginEnd="@dimen/display_info_e_margin"
+        android:fadingEdgeLength="@dimen/display_info_fading_edge_size"
+        android:fillViewport="true"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/changeEmail_Button"
+        app:layout_constraintTop_toBottomOf="@+id/email_TextView"
+        app:layout_constraintVertical_bias="@fraction/display_info_v_bias">
+
+        <TextView
+            android:id="@+id/Email_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="@dimen/display_info_text_size"
+            android:textStyle="bold|italic" />
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/password_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/password2"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/display_info_label_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/changePassword_Button"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="@fraction/display_info_label_v_bias"
+        tools:ignore="TextContrastCheck" />
+
+    <HorizontalScrollView
+        android:id="@+id/password_HScrollView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/display_info_s_margin"
+        android:layout_marginEnd="@dimen/display_info_e_margin"
+        android:fadingEdgeLength="@dimen/display_info_fading_edge_size"
+        android:fillViewport="true"
+        android:requiresFadingEdge="horizontal"
+        android:scrollbars="none"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/changePassword_Button"
+        app:layout_constraintTop_toBottomOf="@+id/password_TextView"
+        app:layout_constraintVertical_bias="@fraction/display_info_v_bias">
+
+        <TextView
+            android:id="@+id/Password_TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="@dimen/display_info_text_size"
+            android:textStyle="bold|italic" />
+
+    </HorizontalScrollView>
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@android:color/black"
+        app:mwhColorAlpha="0.6"
+        app:mwhIsRunning="false"
+        app:mwhStartColor="@color/colorPrimary"
+        app:mwhVelocity="0.9"
+        app:mwhWaveHeight="@dimen/wave_height" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/large_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:text="@string/account"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/title_v_bias" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="@fraction/l_fab_button_h_bias1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/otherSettings_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_other_settings"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/deleteAllEvents_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_fab_button_h_bias1"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_delete_all_info"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/splashScreen_ConstraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/red_black_gradient_315"
+        android:clickable="true"
+        android:elevation="@dimen/splash_screen_elevation"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo_ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/splash_screen_logo"
+            tools:ignore="ContentDescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

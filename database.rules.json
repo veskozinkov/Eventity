@@ -1,0 +1,44 @@
+{
+  "rules": {
+    "cf_flag": {
+      ".read": false,
+      ".write": false
+    },
+    "tzs_info": {
+      "$continent": {
+        "$region": {
+          "props": {
+            "updated": {
+              ".read": "auth != null",
+              ".write": false
+            },
+            "users_count": {
+              ".read": false,
+              ".write": false
+            }
+          },
+          "uids": {
+            ".read": false,
+            ".write": false
+          }
+        }
+      }
+    },
+    "ref_date": {
+      ".read": "auth != null",
+      ".write": false
+    },
+    "users": {
+      "$uid": {
+        ".read": "auth != null && $uid === auth.uid",
+        "$user_nodes": {
+          ".write": "(auth != null && $uid === auth.uid) || (auth == null && $user_nodes.contains('device_id'))"
+        }
+      }
+    },
+    "week_flags": {
+      ".read": "auth != null",
+      ".write": false
+    }
+  }
+}

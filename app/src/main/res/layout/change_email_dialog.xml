@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_dialog"
+    android:outlineProvider="background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/change_dialogs_guideline1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/change_dialogs_guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/change_dialogs_guideline3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/buttons_guideline" />
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@android:color/black"
+        app:mwhColorAlpha="0.6"
+        app:mwhIsRunning="false"
+        app:mwhStartColor="@color/colorPrimary"
+        app:mwhVelocity="0.9"
+        app:mwhWaveHeight="@dimen/wave_height" />
+
+    <TextView
+        android:id="@+id/title_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/large_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:text="@string/change_email"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/change_dialogs_title_v_bias" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_TIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/edit_text_s_margin"
+        android:layout_marginTop="@dimen/v_bias_t_margin"
+        android:layout_marginEnd="@dimen/edit_text_e_margin"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/TIL_ErrorMessage"
+        app:errorTextColor="@color/colorError"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="@fraction/change_dialogs_til_v_bias">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/til_edit_text_b_margin"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:fontFamily="monospace"
+            android:hint="@string/new_email_address"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/edit_text_padding"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorTextBlack"
+            android:textColorHint="@color/hint_selector"
+            android:textSize="@dimen/edit_text_text_size"
+            android:textStyle="bold|italic"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_TIL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/edit_text_s_margin"
+        android:layout_marginTop="@dimen/v_bias_t_margin"
+        android:layout_marginEnd="@dimen/edit_text_e_margin"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/TIL_ErrorMessage"
+        app:errorTextColor="@color/colorError"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="@fraction/change_dialogs_til_v_bias">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/til_edit_text_b_margin"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="@dimen/edit_text_drawable_padding"
+            android:fontFamily="monospace"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="@dimen/edit_text_padding"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorTextBlack"
+            android:textColorHint="@color/hint_selector"
+            android:textSize="@dimen/edit_text_text_size"
+            android:textStyle="bold|italic"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/ok_Button"
+        android:layout_width="@dimen/buttons_width"
+        android:layout_height="@dimen/buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@android:string/ok"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_button_h_bias"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/cancel_Button"
+        android:layout_width="@dimen/buttons_width"
+        android:layout_height="@dimen/buttons_height"
+        android:background="@drawable/round_button"
+        android:fontFamily="monospace"
+        android:text="@string/back"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/buttons_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="@fraction/l_button_h_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="@+id/cancel_Button"
+        app:layout_constraintEnd_toEndOf="@+id/ok_Button"
+        app:layout_constraintStart_toStartOf="@+id/cancel_Button"
+        app:layout_constraintTop_toTopOf="@+id/ok_Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

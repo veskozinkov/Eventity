@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ACROSS MULTIPLE XML FILES -->
+    <dimen name="title_text_size">45dp</dimen>
+    <dimen name="wave_height">50dp</dimen>
+    <dimen name="edit_text_text_size">20dp</dimen>
+    <dimen name="edit_text_drawable_padding">8dp</dimen>
+    <dimen name="til_edit_text_b_margin">3.5dp</dimen>
+    <dimen name="edit_text_padding">18dp</dimen>
+    <dimen name="edit_text_s_margin">3.5dp</dimen>
+    <dimen name="edit_text_e_margin">3.5dp</dimen>
+    <dimen name="country_e_margin">3.5dp</dimen>
+    <dimen name="small_buttons_text_size">17dp</dimen>
+    <dimen name="buttons_text_size">18dp</dimen>
+    <dimen name="buttons_width">122dp</dimen>
+    <dimen name="buttons_height">54dp</dimen>
+    <dimen name="country_text_size">20dp</dimen>
+    <dimen name="dialog_title_text_size">35dp</dimen>
+    <dimen name="colon_text_size">67dp</dimen>
+    <dimen name="num_picker_text_size">20dp</dimen>
+    <dimen name="num_picker_small_text_size">17dp</dimen>
+    <dimen name="num_picker_divider_distance">54dp</dimen>
+    <dimen name="num_picker_width">71dp</dimen>
+    <dimen name="v_bias_t_margin">84dp</dimen>
+    <!-- <dimen name="icon_size">24dp</dimen> -->
+    <!-- <dimen name="border_corner_radius">100dp</dimen> -->
+    <!-- <dimen name="button_corner_radius">90dp</dimen> -->
+    <!-- <dimen name="dialog_corner_radius">30dp</dimen> -->
+    <dimen name="til_error_message_size">11.5dp</dimen>
+    <dimen name="fab_custom_size">45dp</dimen>
+    <dimen name="splash_screen_elevation">22dp</dimen>
+    <dimen name="bg_title_text_size_sub_number">9dp</dimen>
+    <dimen name="bg_dialog_title_text_size_sub_number">2.5dp</dimen>
+    <dimen name="am_pm_num_picker_s_margin">11.2dp</dimen>
+    <dimen name="am_pm_num_picker_e_margin">25.5dp</dimen>
+    <dimen name="am_pm_num_picker_divider_length">34dp</dimen>
+    <dimen name="am_pm_num_picker_divider_distance">53dp</dimen>
+    <dimen name="am_pm_num_picker_item_spacing">19dp</dimen>
+    <dimen name="large_text_shadowDx">9</dimen>
+    <dimen name="large_text_shadowDy">6</dimen>
+    <dimen name="large_text_shadowRadius">6</dimen>
+    <dimen name="small_text_shadowDx">5</dimen>
+    <dimen name="small_text_shadowDy">4</dimen>
+    <dimen name="small_text_shadowRadius">4</dimen>
+    <dimen name="toast_text_size">15dp</dimen>
+    <dimen name="popup_menu_title_text_size">13.5dp</dimen>
+    <dimen name="early5mins_title_text_size">13.5dp</dimen>
+    <dimen name="early10mins_title_text_size">13.5dp</dimen>
+    <dimen name="popup_menu_item_text_size">16dp</dimen>
+    <dimen name="context_menu_item_text_size">18dp</dimen>
+    <dimen name="list_preferred_item_height_small">54dp</dimen>
+    <dimen name="splash_screen_logo_width">277.77777dp</dimen>
+    <dimen name="splash_screen_logo_height">324.31161dp</dimen>
+
+    <fraction name="title_v_bias">0.32</fraction>
+    <fraction name="l_fab_button_h_bias2">0.97</fraction>
+    <fraction name="r_fab_button_h_bias2">0.03</fraction>
+    <fraction name="fab_buttons_v_bias">0.88</fraction>
+    <fraction name="l_button_h_bias">0.81</fraction>
+    <fraction name="r_button_h_bias">0.19</fraction>
+    <fraction name="v_bias_100">1.0</fraction>
+    <fraction name="h_bias_100">1.0</fraction>
+    <fraction name="v_bias_0">0</fraction>
+    <fraction name="new_existing_user_v_bias">0.25</fraction>
+    <fraction name="l_num_picker_h_bias1_24_hour">0.8</fraction>
+    <fraction name="r_num_picker_h_bias1_24_hour">0.2</fraction>
+    <fraction name="l_num_picker_h_bias1_12_hour">0.85</fraction>
+    <fraction name="num_picker_12_hour_l_guideline">0.3</fraction>
+    <fraction name="num_picker_12_hour_r_guideline">0.7</fraction>
+    <fraction name="activity_title_guideline">0.25515</fraction>
+    <fraction name="fragment_title_guideline">0.27</fraction>
+    <fraction name="fragment_list_guideline">0.24</fraction>
+    <fraction name="buttons_guideline">0.5</fraction>
+    <fraction name="sia_sua_button_guideline">0.85</fraction>
+    <fraction name="sia_sua_text_button_guideline">0.94</fraction>
+    <fraction name="dialogs_w_division_number">1.05</fraction>
+
+    <!-- ACCOUNT SETTINGS ACTIVITY -->
+    <dimen name="display_info_label_text_size">22dp</dimen>
+    <dimen name="display_info_text_size">20dp</dimen>
+    <dimen name="display_info_text_view_additional_width">6dp</dimen>
+    <dimen name="display_info_fading_edge_size">39dp</dimen>
+    <dimen name="display_info_s_margin">7dp</dimen>
+    <dimen name="display_info_e_margin">7dp</dimen>
+    <dimen name="small_buttons_width">95dp</dimen>
+    <dimen name="small_buttons_height">45dp</dimen>
+
+    <fraction name="small_buttons_h_bias">0.06</fraction>
+    <fraction name="display_info_label_v_bias">0.3</fraction>
+    <fraction name="display_info_v_bias">0.2</fraction>
+    <fraction name="asa_guideline2">0.405</fraction>
+    <fraction name="asa_guideline3">0.57</fraction>
+    <fraction name="asa_guideline4">0.72</fraction>
+    <fraction name="asa_guideline5">0.86</fraction>
+    <fraction name="asa_guideline7">0.44</fraction>
+    <fraction name="asa_guideline8">0.56</fraction>
+    <fraction name="asa_country_flag_guideline">0.33</fraction>
+
+    <!-- MAIN ACTIVITY -->
+    <!-- <dimen name="b_nav_icon_size">24.5dp</dimen> -->
+    <dimen name="b_nav_indicator_radius">111dp</dimen>
+
+    <fraction name="ma_guideline1">0.945</fraction>
+
+    <!-- SIGN IN ACTIVITY -->
+    <dimen name="verify_email_text_size">14dp</dimen>
+    <dimen name="progress_bar_2_height">28dp</dimen>
+    <dimen name="progress_bar_2_width">33dp</dimen>
+    <dimen name="password_til_b_padding">3dp</dimen>
+
+    <fraction name="email_til_v_bias1">0.93</fraction>
+    <fraction name="password_til_v_bias1">0.07</fraction>
+    <fraction name="small_progress_bar_v_bias">0.7</fraction>
+    <fraction name="sia_guideline2">0.56</fraction>
+    <fraction name="sia_guideline4">0.5</fraction>
+    <fraction name="forgot_password_resend_email_v_bias">0.85</fraction>
+
+    <!-- SIGN UP ACTIVITY -->
+    <fraction name="names_til_v_bias">0.78</fraction>
+    <fraction name="sua_guideline2">0.42</fraction>
+    <fraction name="sua_guideline3">0.558</fraction>
+    <fraction name="sua_guideline4">0.69</fraction>
+    <fraction name="sua_guideline6">0.5</fraction>
+    <fraction name="sua_country_flag_guideline">0.33</fraction>
+    <fraction name="country_v_bias">0.05</fraction>
+
+    <!-- ACTIVATE AUTO TIME DIALOG -->
+    <dimen name="aatd_title_text_size">31.5dp</dimen>
+    <dimen name="aatd_message_text_size">17dp</dimen>
+    <dimen name="aatd_message_s_margin">6dp</dimen>
+    <dimen name="aatd_message_e_margin">6dp</dimen>
+    <dimen name="aatd_background_t_padding">184dp</dimen>
+
+    <fraction name="aatd_turn_on_button_v_bias">0.7</fraction>
+    <fraction name="aatd_title_v_bias">0.19</fraction>
+    <fraction name="aatd_guideline1">0.57</fraction>
+    <fraction name="aatd_guideline2">0.79</fraction>
+    <fraction name="aatd_h_division_number">1.21</fraction>
+
+    <!-- ADD CHANGE INFO DIALOG -->
+    <dimen name="acid_num_picker_t_margin">28dp</dimen>
+    <dimen name="acid_num_picker_b_margin">11.3dp</dimen>
+    <dimen name="acid_colon_t_margin">28dp</dimen>
+    <dimen name="acid_colon_b_margin">11.3dp</dimen>
+    <dimen name="acid_background_t_padding">114dp</dimen>
+
+    <fraction name="til_v_bias1">0.75</fraction>
+    <fraction name="acid_title_v_bias">0.19</fraction>
+    <fraction name="acid_guideline1">0.34</fraction>
+    <fraction name="acid_guideline2">0.52</fraction>
+    <fraction name="acid_guideline3">0.84</fraction>
+    <fraction name="acid_h_division_number">1.09</fraction>
+
+    <!-- ADD CHANGE INFO DIALOG 2 -->
+    <dimen name="acid2_dot_text_size">28dp</dimen>
+    <dimen name="acid2_background_t_padding">48dp</dimen>
+
+    <fraction name="til_v_bias2">0.93</fraction>
+    <fraction name="l_num_picker_h_bias2">0.85</fraction>
+    <fraction name="r_num_picker_h_bias2">0.15</fraction>
+    <fraction name="acid2_title_v_bias">0.18</fraction>
+    <fraction name="acid2_guideline1">0.27</fraction>
+    <fraction name="acid2_guideline2">0.42</fraction>
+    <fraction name="acid2_guideline3">0.64</fraction>
+    <fraction name="acid2_guideline4">0.87</fraction>
+    <fraction name="acid2_guideline6">0.3</fraction>
+    <fraction name="acid2_guideline7">0.7</fraction>
+    <fraction name="acid2_h_division_number">1</fraction>
+
+    <!-- OTHER SETTINGS DIALOG -->
+    <dimen name="osd_background_t_padding">50dp</dimen>
+    <dimen name="osd_text_size1">20dp</dimen>
+    <dimen name="osd_text_size2">18.5dp</dimen>
+    <dimen name="osd_text_view_s_margin">11.3dp</dimen>
+    <dimen name="osd_spinner_text_size">18dp</dimen>
+    <dimen name="osd_spinner_s_margin">6dp</dimen>
+    <dimen name="osd_spinner_e_margin">6dp</dimen>
+    <dimen name="osd_spinner_padding">12.3dp</dimen>
+    <!-- <dimen name="osd_spinner_background_l_padding">10dp</dimen> -->
+    <!-- <dimen name="osd_spinner_background_r_padding">5dp</dimen> -->
+    <dimen name="osd_increase_buttons_height">45dp</dimen>
+    <dimen name="osd_increase_buttons_text_size">15.5dp</dimen>
+    <dimen name="osd_increase_buttons_s_margin">6dp</dimen>
+    <dimen name="osd_increase_buttons_e_margin">6dp</dimen>
+    <dimen name="osd_progress_bar_width">39dp</dimen>
+    <dimen name="osd_progress_bar_height">34dp</dimen>
+
+    <fraction name="osd_title_v_bias">0.17</fraction>
+    <fraction name="osd_guideline1">0.26</fraction>
+    <fraction name="osd_guideline2">0.4</fraction>
+    <fraction name="osd_guideline3">0.532</fraction>
+    <fraction name="osd_guideline4">0.668</fraction>
+    <fraction name="osd_guideline5">0.804</fraction>
+    <fraction name="osd_guideline6">0.902</fraction>
+    <fraction name="osd_guideline7">0.975</fraction>
+    <fraction name="osd_guideline8">0.67</fraction>
+    <fraction name="osd_guideline9">0.32</fraction>
+    <fraction name="osd_guideline10">0.452</fraction>
+    <fraction name="osd_guideline11">0.586</fraction>
+    <fraction name="osd_guideline12">0.722</fraction>
+    <fraction name="osd_h_division_number">1</fraction>
+
+    <!-- CHANGE DIALOGS -->
+    <dimen name="change_dialogs_background_t_padding">154dp</dimen>
+
+    <fraction name="change_dialogs_title_v_bias">0.17</fraction>
+    <fraction name="change_dialogs_til_v_bias">0.95</fraction>
+    <fraction name="change_dialogs_guideline1">0.36</fraction>
+    <fraction name="change_dialogs_guideline2">0.57</fraction>
+    <fraction name="change_dialogs_guideline3">0.78</fraction>
+    <fraction name="change_dialogs_h_division_number">1.155</fraction>
+
+    <!-- CONFIRMATION DIALOG -->
+    <dimen name="cd_background_t_padding">257dp</dimen>
+
+    <fraction name="cd_title_v_bias">0.15</fraction>
+    <fraction name="cd_guideline1">0.57</fraction>
+    <fraction name="cd_h_division_number">1.36</fraction>
+
+    <!-- COUNTRY LIST ADAPTER VIEW -->
+    <dimen name="country_layout_height">131dp</dimen>
+
+    <fraction name="clav_guideline1">0.32</fraction>
+
+    <!-- DAY FRAGMENT -->
+    <dimen name="list_view_divider_height">48dp</dimen>
+    <dimen name="list_view_t_padding">40dp</dimen>
+    <dimen name="list_view_b_padding">22dp</dimen>
+    <dimen name="df_subtitle_text_size">20dp</dimen>
+    <dimen name="df_subtitle_b_padding">2dp</dimen>
+
+    <fraction name="l_fab_button_h_bias1">0.94</fraction>
+    <fraction name="r_fab_button_h_bias1">0.06</fraction>
+    <fraction name="df_guideline3">0.44</fraction>
+    <fraction name="df_guideline4">0.56</fraction>
+    <fraction name="df_guideline5">0.118</fraction>
+
+    <!-- DELETE ACCOUNT DIALOG -->
+    <dimen name="del_acc_warning_text_size">17dp</dimen>
+    <dimen name="del_acc_message_s_margin">6dp</dimen>
+    <dimen name="del_acc_message_e_margin">6dp</dimen>
+    <dimen name="del_acc_background_t_padding">102dp</dimen>
+
+    <fraction name="confirmation_til_v_bias">0.75</fraction>
+    <fraction name="password_til_v_bias2">0.65</fraction>
+    <fraction name="buttons_progress_bar_v_bias1">0.75</fraction>
+    <fraction name="dad_title_v_bias">0.18</fraction>
+    <!-- <fraction name="dad_bg_title_v_bias">0.095</fraction> -->
+    <fraction name="dad_guideline1">0.31</fraction>
+    <fraction name="dad_guideline2">0.68</fraction>
+    <fraction name="dad_guideline3">0.81</fraction>
+    <fraction name="dad_guideline4">0.5</fraction>
+    <fraction name="dad_h_division_number">1.07</fraction>
+
+    <!-- DELETE ALL EVENTS DIALOG -->
+    <dimen name="daed_title_text_size">31.5dp</dimen>
+    <dimen name="delete_all_events_message_text_size">17dp</dimen>
+    <dimen name="delete_all_events_message_s_margin">6dp</dimen>
+    <dimen name="delete_all_events_message_e_margin">6dp</dimen>
+    <dimen name="daed_background_t_padding">139dp</dimen>
+
+    <fraction name="password_til_v_bias3">1</fraction>
+    <fraction name="buttons_progress_bar_v_bias3">0.84</fraction>
+    <fraction name="daed_title_v_bias">0.14</fraction>
+    <fraction name="daed_guideline1">0.37</fraction>
+    <fraction name="daed_guideline2">0.578</fraction>
+    <fraction name="daed_guideline3">0.727</fraction>
+    <fraction name="daed_h_division_number">1.13</fraction>
+
+    <!-- PASSWORD RESET DIALOG -->
+    <dimen name="reset_pass_message_text_size">17dp</dimen>
+    <dimen name="reset_pass_message_s_margin">6dp</dimen>
+    <dimen name="reset_pass_message_e_margin">6dp</dimen>
+    <dimen name="prd_background_t_padding">185dp</dimen>
+
+    <fraction name="email_til_v_bias2">1</fraction>
+    <fraction name="buttons_progress_bar_v_bias2">0.84</fraction>
+    <fraction name="prd_title_v_bias">0.15</fraction>
+    <fraction name="prd_guideline1">0.4</fraction>
+    <fraction name="prd_guideline2">0.64</fraction>
+    <fraction name="prd_guideline3">0.82</fraction>
+    <fraction name="prd_h_division_number">1.21</fraction>
+
+    <!-- INFORMATION LIST ADAPTER VIEW -->
+    <dimen name="info_layout_height">158dp</dimen>
+    <dimen name="card_s_margin">6dp</dimen>
+    <dimen name="card_e_margin">6dp</dimen>
+    <dimen name="card_corner_radius">17dp</dimen>
+    <dimen name="card_elevation">22dp</dimen>
+    <dimen name="card_info_text_size">20dp</dimen>
+    <dimen name="card_date_text_size">20dp</dimen>
+    <dimen name="card_notification_text_size">20dp</dimen>
+    <dimen name="card_time_text_size">20dp</dimen>
+    <dimen name="card_numeration_text_size">16dp</dimen>
+    <dimen name="card_notification_icon_padding">11.3dp</dimen>
+    <dimen name="card_info_s_margin">8dp</dimen>
+
+    <fraction name="ilav_guideline1">0.44</fraction>
+    <fraction name="ilav_guideline2">0.2</fraction>
+    <fraction name="ilav_guideline3">0.4</fraction>
+    <fraction name="ilav_guideline4">0.6</fraction>
+    <fraction name="ilav_guideline5">0.8</fraction>
+    <fraction name="ilav_guideline6">0.3</fraction>
+    <fraction name="ilav_guideline7">0.5</fraction>
+    <fraction name="ilav_guideline8">0.7</fraction>
+
+    <!-- SELECT COUNTRY DIALOG -->
+    <dimen name="scd_background_t_padding">80dp</dimen>
+    <dimen name="scd_progress_bar_size">54dp</dimen>
+
+    <fraction name="scd_title_v_bias">0.18</fraction>
+    <fraction name="scd_guideline1">0.31</fraction>
+    <fraction name="scd_guideline2">0.42</fraction>
+    <fraction name="scd_h_division_number">1.04</fraction>
+
+    <!-- WEEK FRAGMENT -->
+    <dimen name="weekday_text_size">45dp</dimen>
+    <dimen name="weekday_s_margin">31dp</dimen>
+    <dimen name="weekday_e_margin">31dp</dimen>
+    <dimen name="weekday_t_padding">6dp</dimen>
+    <dimen name="weekday_b_padding">16dp</dimen>
+    <dimen name="monday_t_margin">46dp</dimen>
+    <dimen name="other_weekdays_t_margin">74dp</dimen>
+    <dimen name="sunday_b_margin">36dp</dimen>
+    <dimen name="saved_events_e_margin">8dp</dimen>
+    <dimen name="saved_events_b_margin">6dp</dimen>
+    <dimen name="saved_events_padding">3dp</dimen>
+
+    <fraction name="wf_guideline3">0.5</fraction>
+
+</resources>

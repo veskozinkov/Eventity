@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9E4141</color>
+    <!--
+     Old color primary #A84646
+    -->
+    <color name="colorPrimaryDark">#933D3D</color>
+    <color name="colorPrimaryDisabled">#C18C8C</color>
+    <color name="colorRipple">#C85353</color>
+    <color name="colorError">#F23F36</color>
+    <color name="colorErrorDisabled">#F28C8C</color>
+    <color name="colorTextViewDisabled">#FFC6C6C6</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorHint">#9E9E9E</color>
+    <color name="colorSuccessToast">#33BA38</color>
+    <color name="colorErrorToast">#CD2E2E</color>
+    <color name="colorWarningToast">#DDCD3B</color>
+    <color name="colorInfoToast">#27C5F4</color>
+    <color name="colorCardGradient">#1E1E1E</color>
+    <color name="colorGrey">#808080</color>
+
+</resources>

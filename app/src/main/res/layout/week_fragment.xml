@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/fragment_list_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@fraction/fragment_title_guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@fraction/wf_guideline3" />
+
+    <ScrollView
+        android:id="@+id/week_ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/monday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/monday_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/monday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/monday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/mondaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tuesday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/other_weekdays_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/tuesday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/tuesday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/tuesdaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/wednesday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/other_weekdays_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/wednesday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/wednesday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/wednesdaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/thursday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/other_weekdays_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/thursday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/thursday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/thursdaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/friday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/other_weekdays_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/friday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/friday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/fridaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/saturday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/other_weekdays_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/saturday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/saturday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/saturdaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sunday_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/weekday_s_margin"
+                android:layout_marginTop="@dimen/other_weekdays_t_margin"
+                android:layout_marginEnd="@dimen/weekday_e_margin"
+                android:layout_marginBottom="@dimen/sunday_b_margin"
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                app:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/sunday_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/red_black_gradient_0"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/weekday_t_padding"
+                    android:paddingBottom="@dimen/weekday_b_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/large_text_shadowDx"
+                    android:shadowDy="@dimen/large_text_shadowDy"
+                    android:shadowRadius="@dimen/large_text_shadowRadius"
+                    android:text="@string/sunday"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/weekday_text_size"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/sundaySavedEvents_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/saved_events_e_margin"
+                    android:layout_marginBottom="@dimen/saved_events_b_margin"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="@dimen/saved_events_padding"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="@dimen/small_text_shadowDx"
+                    android:shadowDy="@dimen/small_text_shadowDy"
+                    android:shadowRadius="@dimen/small_text_shadowRadius"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/card_numeration_text_size"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@android:color/black"
+        app:mwhColorAlpha="0.6"
+        app:mwhIsRunning="false"
+        app:mwhStartColor="@color/colorPrimary"
+        app:mwhVelocity="0.9"
+        app:mwhWaveHeight="@dimen/wave_height" />
+
+    <TextView
+        android:id="@+id/week_TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="@dimen/large_text_shadowDx"
+        android:shadowDy="@dimen/large_text_shadowDy"
+        android:shadowRadius="@dimen/large_text_shadowRadius"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold|italic"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/title_v_bias" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="@fraction/l_fab_button_h_bias2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_back"
+        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/accountSettings_FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="@dimen/fab_custom_size"
+        app:fabSize="mini"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@fraction/r_fab_button_h_bias2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@fraction/fab_buttons_v_bias"
+        app:maxImageSize="@dimen/icon_size"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/ic_settings"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

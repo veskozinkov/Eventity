@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FLAGS DRAWABLES -->
+    <dimen name="flag_width">82dp</dimen>
+
+    <dimen name="ad_height">57.4dp</dimen>
+    <dimen name="ae_height">41dp</dimen>
+    <dimen name="af_height">54.666668dp</dimen>
+    <dimen name="ag_height">54.666668dp</dimen>
+    <dimen name="al_height">58.57143dp</dimen>
+    <dimen name="am_height">41dp</dimen>
+    <dimen name="ao_height">54.666668dp</dimen>
+    <dimen name="aq_height">54.666668dp</dimen>
+    <dimen name="ar_height">51.25dp</dimen>
+    <dimen name="as_height">41dp</dimen>
+    <dimen name="at_height">54.666668dp</dimen>
+    <dimen name="au_height">41dp</dimen>
+    <dimen name="aw_height">54.666668dp</dimen>
+    <dimen name="az_height">41dp</dimen>
+
+    <dimen name="ba_height">41dp</dimen>
+    <dimen name="bb_height">54.666668dp</dimen>
+    <dimen name="bd_height">49.2dp</dimen>
+    <dimen name="be_height">71.066666dp</dimen>
+    <dimen name="bf_height">54.666668dp</dimen>
+    <dimen name="bg_height">49.2dp</dimen>
+    <dimen name="bh_height">49.2dp</dimen>
+    <dimen name="bi_height">49.2dp</dimen>
+    <dimen name="bj_height">54.666668dp</dimen>
+    <dimen name="bn_height">41dp</dimen>
+    <dimen name="bo_height">55.909092dp</dimen>
+    <dimen name="br_height">57.4dp</dimen>
+    <dimen name="bs_height">41dp</dimen>
+    <dimen name="bt_height">54.666668dp</dimen>
+    <dimen name="bw_height">54.666668dp</dimen>
+    <dimen name="by_height">41dp</dimen>
+    <dimen name="bz_height">49.2dp</dimen>
+
+    <dimen name="ca_height">41dp</dimen>
+    <dimen name="cc_height">41dp</dimen>
+    <dimen name="cd_height">61.5dp</dimen>
+    <dimen name="cf_height">54.666668dp</dimen>
+    <dimen name="cg_height">54.666668dp</dimen>
+    <dimen name="ch_height">82dp</dimen>
+    <dimen name="ci_height">54.666668dp</dimen>
+    <dimen name="cl_height">54.666668dp</dimen>
+    <dimen name="cm_height">54.666668dp</dimen>
+    <dimen name="cn_height">54.666668dp</dimen>
+    <dimen name="co_height">54.666668dp</dimen>
+    <dimen name="cr_height">49.2dp</dimen>
+    <dimen name="cu_height">41dp</dimen>
+    <dimen name="cv_height">48.235294dp</dimen>
+    <dimen name="cw_height">54.648434dp</dimen>
+    <dimen name="cx_height">41dp</dimen>
+    <dimen name="cy_height">54.666668dp</dimen>
+    <dimen name="cz_height">54.666668dp</dimen>
+
+    <dimen name="de_height">49.2dp</dimen>
+    <dimen name="dj_height">54.666668dp</dimen>
+    <dimen name="dk_height">62.054054dp</dimen>
+    <dimen name="dm_height">41dp</dimen>
+    <dimen name="dom_height">51.25dp</dimen>
+    <dimen name="dz_height">54.666668dp</dimen>
+
+    <dimen name="ec_height">54.666668dp</dimen>
+    <dimen name="ee_height">52.18182dp</dimen>
+    <dimen name="eg_height">54.666668dp</dimen>
+    <dimen name="eh_height">41dp</dimen>
+    <dimen name="er_height">41dp</dimen>
+    <dimen name="es_height">54.666668dp</dimen>
+    <dimen name="et_height">41dp</dimen>
+
+    <dimen name="fi_height">50.11111dp</dimen>
+    <dimen name="fj_height">41dp</dimen>
+    <dimen name="fm_height">43.157967dp</dimen>
+    <dimen name="fo_height">59.636364dp</dimen>
+    <dimen name="fr_height">54.666668dp</dimen>
+
+    <dimen name="ga_height">61.5dp</dimen>
+    <dimen name="gb_height">41dp</dimen>
+    <dimen name="gd_height">49.2dp</dimen>
+    <dimen name="ge_height">54.666668dp</dimen>
+    <dimen name="gh_height">54.666668dp</dimen>
+    <dimen name="gi_height">41dp</dimen>
+    <dimen name="gl_height">54.666668dp</dimen>
+    <dimen name="gm_height">54.666668dp</dimen>
+    <dimen name="gn_height">54.666668dp</dimen>
+    <dimen name="gq_height">54.666668dp</dimen>
+    <dimen name="gr_height">54.666668dp</dimen>
+    <dimen name="gt_height">51.25dp</dimen>
+    <dimen name="gu_height">44dp</dimen>
+    <dimen name="gw_height">41dp</dimen>
+    <dimen name="gy_height">49.2dp</dimen>
+
+    <dimen name="hk_height">54.666668dp</dimen>
+    <dimen name="hn_height">41dp</dimen>
+    <dimen name="hr_height">41dp</dimen>
+    <dimen name="ht_height">49.2dp</dimen>
+    <dimen name="hu_height">41dp</dimen>
+
+    <dimen name="id_height">54.666668dp</dimen>
+    <dimen name="ie_height">41dp</dimen>
+    <dimen name="il_height">59.636364dp</dimen>
+    <dimen name="in_height">54.666668dp</dimen>
+    <dimen name="iq_height">54.666668dp</dimen>
+    <dimen name="ir_height">47.013332dp</dimen>
+    <dimen name="is_height">59.04dp</dimen>
+    <dimen name="it_height">54.666668dp</dimen>
+
+    <dimen name="jm_height">41dp</dimen>
+    <dimen name="jo_height">41dp</dimen>
+    <dimen name="jp_height">54.666668dp</dimen>
+
+    <dimen name="ke_height">54.666668dp</dimen>
+    <dimen name="kg_height">49.2dp</dimen>
+    <dimen name="kh_height">52.48dp</dimen>
+    <dimen name="ki_height">41dp</dimen>
+    <dimen name="km_height">49.2dp</dimen>
+    <dimen name="kn_height">54.666668dp</dimen>
+    <dimen name="kp_height">41dp</dimen>
+    <dimen name="kr_height">54.666668dp</dimen>
+    <dimen name="kw_height">41dp</dimen>
+    <dimen name="kz_height">41dp</dimen>
+
+    <dimen name="la_height">54.666668dp</dimen>
+    <dimen name="lb_height">54.666668dp</dimen>
+    <dimen name="lc_height">41dp</dimen>
+    <dimen name="li_height">49.2dp</dimen>
+    <dimen name="lk_height">41dp</dimen>
+    <dimen name="lr_height">43.157894dp</dimen>
+    <dimen name="ls_height">54.666668dp</dimen>
+    <dimen name="lt_height">49.2dp</dimen>
+    <dimen name="lu_height">49.2dp</dimen>
+    <dimen name="lv_height">41dp</dimen>
+    <dimen name="ly_height">41dp</dimen>
+
+    <dimen name="ma_height">54.666668dp</dimen>
+    <dimen name="mc_height">65.6dp</dimen>
+    <dimen name="md_height">41dp</dimen>
+    <dimen name="me_height">41dp</dimen>
+    <dimen name="mg_height">54.666668dp</dimen>
+    <dimen name="mh_height">43.157894dp</dimen>
+    <dimen name="mk_height">41dp</dimen>
+    <dimen name="ml_height">54.666668dp</dimen>
+    <dimen name="mm_height">54.666668dp</dimen>
+    <dimen name="mn_height">41dp</dimen>
+    <dimen name="mo_height">54.666668dp</dimen>
+    <dimen name="mp_height">41dp</dimen>
+    <dimen name="mr_height">54.666668dp</dimen>
+    <dimen name="mt_height">54.666668dp</dimen>
+    <dimen name="mu_height">54.666668dp</dimen>
+    <dimen name="mv_height">54.666668dp</dimen>
+    <dimen name="mw_height">54.666668dp</dimen>
+    <dimen name="mx_height">46.857143dp</dimen>
+    <dimen name="my_height">41dp</dimen>
+    <dimen name="mz_height">54.666668dp</dimen>
+
+    <dimen name="na_height">54.666668dp</dimen>
+    <dimen name="nc_height">41dp</dimen>
+    <dimen name="ne_height">70.28571dp</dimen>
+    <dimen name="ng_height">41dp</dimen>
+    <dimen name="ni_height">49.2dp</dimen>
+    <dimen name="nl_height">54.666668dp</dimen>
+    <dimen name="no_height">59.636364dp</dimen>
+    <dimen name="np_height">99.95868dp</dimen>
+    <dimen name="nr_height">41dp</dimen>
+    <dimen name="nu_height">41dp</dimen>
+    <dimen name="nz_height">41dp</dimen>
+
+    <dimen name="om_height">41dp</dimen>
+
+    <dimen name="pa_height">54.666668dp</dimen>
+    <dimen name="pe_height">54.666668dp</dimen>
+    <dimen name="pf_height">54.666668dp</dimen>
+    <dimen name="pg_height">61.5dp</dimen>
+    <dimen name="ph_height">41dp</dimen>
+    <dimen name="pk_height">54.666668dp</dimen>
+    <dimen name="pl_height">51.25dp</dimen>
+    <dimen name="pr_height">54.666668dp</dimen>
+    <dimen name="ps_height">41dp</dimen>
+    <dimen name="pt_height">54.666668dp</dimen>
+    <dimen name="pw_height">51.25dp</dimen>
+    <dimen name="py_height">45.1dp</dimen>
+
+    <dimen name="qa_height">32.214287dp</dimen>
+
+    <dimen name="ro_height">54.666668dp</dimen>
+    <dimen name="rs_height">54.667027dp</dimen>
+    <dimen name="ru_height">54.666668dp</dimen>
+    <dimen name="rw_height">54.666668dp</dimen>
+
+    <dimen name="sa_height">54.666668dp</dimen>
+    <dimen name="sb_height">41dp</dimen>
+    <dimen name="sc_height">41dp</dimen>
+    <dimen name="sd_height">41dp</dimen>
+    <dimen name="se_height">51.25dp</dimen>
+    <dimen name="sg_height">54.666668dp</dimen>
+    <dimen name="si_height">41dp</dimen>
+    <dimen name="sk_height">54.666668dp</dimen>
+    <dimen name="sl_height">54.666668dp</dimen>
+    <dimen name="sm_height">61.5dp</dimen>
+    <dimen name="sn_height">54.666668dp</dimen>
+    <dimen name="so_height">54.666668dp</dimen>
+    <dimen name="sr_height">54.666668dp</dimen>
+    <dimen name="ss_height">41dp</dimen>
+    <dimen name="st_height">41dp</dimen>
+    <dimen name="sv_height">46.262688dp</dimen>
+    <dimen name="sy_height">54.666668dp</dimen>
+
+    <dimen name="td_height">54.666668dp</dimen>
+    <dimen name="tg_height">50.67985dp</dimen>
+    <dimen name="th_height">54.666668dp</dimen>
+    <dimen name="tj_height">41dp</dimen>
+    <dimen name="tl_height">41dp</dimen>
+    <dimen name="tm_height">54.666668dp</dimen>
+    <dimen name="tn_height">54.666668dp</dimen>
+    <dimen name="to_height">41dp</dimen>
+    <dimen name="tr_height">54.666668dp</dimen>
+    <dimen name="tt_height">49.2dp</dimen>
+    <dimen name="tv_height">41dp</dimen>
+    <dimen name="tw_height">54.666668dp</dimen>
+    <dimen name="tz_height">54.666668dp</dimen>
+
+    <dimen name="ua_height">54.666668dp</dimen>
+    <dimen name="ug_height">54.666668dp</dimen>
+    <dimen name="unknown_height">54.666668dp</dimen>
+    <dimen name="us_height">43.157967dp</dimen>
+    <dimen name="uy_height">54.666668dp</dimen>
+    <dimen name="uz_height">41dp</dimen>
+
+    <dimen name="va_height">82dp</dimen>
+    <dimen name="vc_height">54.666668dp</dimen>
+    <dimen name="ve_height">54.666668dp</dimen>
+    <dimen name="vn_height">54.666668dp</dimen>
+    <dimen name="vu_height">49.2dp</dimen>
+
+    <dimen name="ws_height">41dp</dimen>
+
+    <dimen name="ye_height">54.666668dp</dimen>
+
+    <dimen name="za_height">54.666668dp</dimen>
+    <dimen name="zm_height">54.666668dp</dimen>
+    <dimen name="zw_height">41dp</dimen>
+
+    <!-- OTHER DRAWABLES -->
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="border_corner_radius">100dp</dimen>
+    <dimen name="border_width">1dp</dimen>
+    <dimen name="button_corner_radius">90dp</dimen>
+    <dimen name="dialog_corner_radius">30dp</dimen>
+    <dimen name="b_nav_icon_size">22dp</dimen>
+    <dimen name="spinner_background_l_padding">10dp</dimen>
+    <dimen name="spinner_background_r_padding">5dp</dimen>
+
+</resources>
