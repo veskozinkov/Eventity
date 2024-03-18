@@ -31,7 +31,7 @@ public class ID {
         List<String> allBookKeys = Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).getAllKeys();
         ArrayList<Integer> otherEventsIDs = new ArrayList<>();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 otherEventsIDs.add(notificationID);
@@ -51,7 +51,7 @@ public class ID {
         ArrayList<Integer> allNotificationIDs = new ArrayList<>();
         List<String> allBookKeys = Paper.book(week + "." + Constants.MONDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.MONDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);
@@ -60,7 +60,7 @@ public class ID {
 
         allBookKeys = Paper.book(week + "." + Constants.TUESDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.TUESDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);
@@ -69,7 +69,7 @@ public class ID {
 
         allBookKeys = Paper.book(week + "." + Constants.WEDNESDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.WEDNESDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);
@@ -78,7 +78,7 @@ public class ID {
 
         allBookKeys = Paper.book(week + "." + Constants.THURSDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.THURSDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);
@@ -87,7 +87,7 @@ public class ID {
 
         allBookKeys = Paper.book(week + "." + Constants.FRIDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.FRIDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);
@@ -96,7 +96,7 @@ public class ID {
 
         allBookKeys = Paper.book(week + "." + Constants.SATURDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.SATURDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);
@@ -105,7 +105,7 @@ public class ID {
 
         allBookKeys = Paper.book(week + "." + Constants.SUNDAY + "." + Constants.NOTIFICATIONS).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 int notificationID = Objects.requireNonNull(Paper.book(week + "." + Constants.SUNDAY + "." + Constants.NOTIFICATIONS).read(allBookKeys.get(i)));
                 allNotificationIDs.add(notificationID);

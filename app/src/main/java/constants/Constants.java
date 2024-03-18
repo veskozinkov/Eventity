@@ -204,7 +204,7 @@ public class Constants {
                         new Country(R.drawable.unknown, context.getString(R.string.select_country)),
                         new Country(R.drawable.af, context.getString(R.string.afghanistan), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Asia/Kabul", null)))),
                         new Country(R.drawable.al, context.getString(R.string.albania), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Europe/Tirane", null)))),
-                        new Country(R.drawable.dz, context.getString(R.string.аlgeria), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Africa/Algiers", null)))),
+                        new Country(R.drawable.dz, context.getString(R.string.algeria), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Africa/Algiers", null)))),
                         new Country(R.drawable.as, context.getString(R.string.american_samoa), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Pacific/Pago_Pago", null)))),
                         new Country(R.drawable.ad, context.getString(R.string.andorra), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Europe/Andorra", null)))),
                         new Country(R.drawable.ao, context.getString(R.string.angola), new ArrayList<>(Collections.singletonList(new TimeZoneAbb("Africa/Lagos", null)))),

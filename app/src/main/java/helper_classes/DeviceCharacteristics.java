@@ -1,5 +1,6 @@
 package helper_classes;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Point;
 import android.view.WindowManager;
@@ -23,6 +24,7 @@ public class DeviceCharacteristics {
     }
 
     public static int getStatusBarHeight(Context context) {
+        @SuppressLint("InternalInsetResource")
         int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
 
         if (resourceId > 0) {

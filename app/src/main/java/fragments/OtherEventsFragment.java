@@ -261,7 +261,7 @@ public class OtherEventsFragment extends Fragment {
 
             information.clear();
 
-            if (allBookKeys.size() == 0) {
+            if (allBookKeys.isEmpty()) {
                 Paper.book(Constants.auth.getCurrentUser().getUid() + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).destroy();
                 Paper.book(Constants.auth.getCurrentUser().getUid() + "." + Constants.OTHER_EVENTS + "." + Constants.FLAGS).destroy();
             }

@@ -394,6 +394,7 @@ public class NotificationHelper {
         }
     }
 
+    @SuppressLint("ScheduleExactAlarm")
     private static void schedule(Context context, String week, String weekDay, String date, String time, int hoursToRemove, int minutesToRemove, String eventID, String notificationTitle, String notificationContent) {
         AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context, NotificationReceiver.class);
@@ -466,7 +467,7 @@ public class NotificationHelper {
             Paper.book(week + "." + weekDay + "." + Constants.NOTIFICATIONS).delete(eventID + "." + Constants.ID1);
             Paper.book(week + "." + weekDay + "." + Constants.NOTIFICATIONS).delete(eventID + "." + Constants.ID2);
 
-            if (Paper.book(week + "." + weekDay + "." + Constants.NOTIFICATIONS).getAllKeys().size() == 0) Paper.book(week + "." + weekDay + "." + Constants.NOTIFICATIONS).destroy();
+            if (Paper.book(week + "." + weekDay + "." + Constants.NOTIFICATIONS).getAllKeys().isEmpty()) Paper.book(week + "." + weekDay + "." + Constants.NOTIFICATIONS).destroy();
         } else {
             if (Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).read(eventID + "." + Constants.ID1) != null) {
                 AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
@@ -491,7 +492,7 @@ public class NotificationHelper {
             Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).delete(eventID + "." + Constants.ID1);
             Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).delete(eventID + "." + Constants.ID2);
 
-            if (Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).getAllKeys().size() == 0) Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).destroy();
+            if (Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).getAllKeys().isEmpty()) Paper.book(Constants.OTHER_EVENTS + "." + Constants.NOTIFICATIONS).destroy();
         }
     }
 
@@ -504,7 +505,7 @@ public class NotificationHelper {
         List<String> allBookKeys = Paper.book(uid + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).getAllKeys();
         TreeMap<String, Information> otherEvents = new TreeMap<>();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).read(allBookKeys.get(i));
                 otherEvents.put(allBookKeys.get(i), info);
@@ -558,7 +559,7 @@ public class NotificationHelper {
         ArrayList<String> week3EventsKeys = getAllWeekEventsKeys(Constants.WEEK3, uid);
 
         List<String> otherEventsKeys = Paper.book(uid + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).getAllKeys();
-        if (otherEventsKeys.size() == 0) Paper.book(uid + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).destroy();
+        if (otherEventsKeys.isEmpty()) Paper.book(uid + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).destroy();
 
         for (int i = 0; i < week0EventsKeys.size(); i++) {
             String weekDay = week0EventsKeys.get(i).substring(0, week0EventsKeys.get(i).indexOf("."));
@@ -597,7 +598,7 @@ public class NotificationHelper {
         TreeMap<String, Information> events = new TreeMap<>();
         List<String> allBookKeys = Paper.book(uid + "." + week + "." + Constants.MONDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.MONDAY).read(allBookKeys.get(i));
                 events.put(Constants.MONDAY + "." + allBookKeys.get(i), info);
@@ -606,7 +607,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.TUESDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.TUESDAY).read(allBookKeys.get(i));
                 events.put(Constants.TUESDAY + "." + allBookKeys.get(i), info);
@@ -615,7 +616,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.WEDNESDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.WEDNESDAY).read(allBookKeys.get(i));
                 events.put(Constants.WEDNESDAY + "." + allBookKeys.get(i), info);
@@ -624,7 +625,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.THURSDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.THURSDAY).read(allBookKeys.get(i));
                 events.put(Constants.THURSDAY + "." + allBookKeys.get(i), info);
@@ -633,7 +634,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.FRIDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.FRIDAY).read(allBookKeys.get(i));
                 events.put(Constants.FRIDAY + "." + allBookKeys.get(i), info);
@@ -642,7 +643,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.SATURDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.SATURDAY).read(allBookKeys.get(i));
                 events.put(Constants.SATURDAY + "." + allBookKeys.get(i), info);
@@ -651,7 +652,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.SUNDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 Information info = Paper.book(uid + "." + week + "." + Constants.SUNDAY).read(allBookKeys.get(i));
                 events.put(Constants.SUNDAY + "." + allBookKeys.get(i), info);
@@ -665,7 +666,7 @@ public class NotificationHelper {
         ArrayList<String> eventsKeys = new ArrayList<>();
         List<String> allBookKeys = Paper.book(uid + "." + week + "." + Constants.MONDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.MONDAY + "." + allBookKeys.get(i));
             }
@@ -673,7 +674,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.TUESDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.TUESDAY + "." + allBookKeys.get(i));
             }
@@ -681,7 +682,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.WEDNESDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.WEDNESDAY + "." + allBookKeys.get(i));
             }
@@ -689,7 +690,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.THURSDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.THURSDAY + "." + allBookKeys.get(i));
             }
@@ -697,7 +698,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.FRIDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.FRIDAY + "." + allBookKeys.get(i));
             }
@@ -705,7 +706,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.SATURDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.SATURDAY + "." + allBookKeys.get(i));
             }
@@ -713,7 +714,7 @@ public class NotificationHelper {
 
         allBookKeys = Paper.book(uid + "." + week + "." + Constants.SUNDAY).getAllKeys();
 
-        if (allBookKeys.size() > 0) {
+        if (!allBookKeys.isEmpty()) {
             for (int i = 0; i < allBookKeys.size(); i++) {
                 eventsKeys.add(Constants.SUNDAY + "." + allBookKeys.get(i));
             }

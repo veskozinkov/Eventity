@@ -339,31 +339,31 @@ public class WeekFragment extends Fragment implements View.OnClickListener {
             }
 
             List<String> allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.MONDAY).getAllKeys();
-            if (allBookKeys.size() > 0) mondaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) mondaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { mondaySavedEventsTextView.setText(""); }
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.TUESDAY).getAllKeys();
-            if (allBookKeys.size() > 0) tuesdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) tuesdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { tuesdaySavedEventsTextView.setText(""); }
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.WEDNESDAY).getAllKeys();
-            if (allBookKeys.size() > 0) wednesdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) wednesdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { wednesdaySavedEventsTextView.setText(""); }
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.THURSDAY).getAllKeys();
-            if (allBookKeys.size() > 0) thursdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) thursdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { thursdaySavedEventsTextView.setText(""); }
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.FRIDAY).getAllKeys();
-            if (allBookKeys.size() > 0) fridaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) fridaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { fridaySavedEventsTextView.setText(""); }
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.SATURDAY).getAllKeys();
-            if (allBookKeys.size() > 0) saturdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) saturdaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { saturdaySavedEventsTextView.setText(""); }
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + week + "." + Constants.SUNDAY).getAllKeys();
-            if (allBookKeys.size() > 0) sundaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
+            if (!allBookKeys.isEmpty()) sundaySavedEventsTextView.setText(String.valueOf(allBookKeys.size()));
             else { sundaySavedEventsTextView.setText(""); }
         }
     }

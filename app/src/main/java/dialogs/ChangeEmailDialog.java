@@ -219,7 +219,7 @@ public class ChangeEmailDialog extends DialogFragment {
 
                             progressBar.setVisibility(View.GONE);
                         } else {
-                            if (Objects.requireNonNull(task1.getResult().getSignInMethods()).size() == 0) {
+                            if (Objects.requireNonNull(task1.getResult().getSignInMethods()).isEmpty()) {
                                 Constants.auth.getCurrentUser().updateEmail(Email).addOnCompleteListener(task2 -> {
                                     if (task2.isSuccessful()) {
                                         CustomToast.showSuccess(requireActivity(), getString(R.string.email_address_changed_successfully), Toast.LENGTH_SHORT);

@@ -272,7 +272,7 @@ public class DayFragment extends Fragment {
 
         information.clear();
 
-        if (allBookKeys.size() == 0) Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + Week + "." + selectedDay).destroy();
+        if (allBookKeys.isEmpty()) Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + Week + "." + selectedDay).destroy();
 
         for (int i = 0; i < allBookKeys.size(); i++) {
             Information info = Paper.book(Constants.auth.getCurrentUser().getUid() + "." + Week + "." + selectedDay).read(allBookKeys.get(i));

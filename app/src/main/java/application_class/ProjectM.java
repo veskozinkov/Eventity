@@ -242,7 +242,7 @@ public class ProjectM extends Application {
 
             allBookKeys = Paper.book(Objects.requireNonNull(Constants.auth.getCurrentUser()).getUid() + "." + Constants.OTHER_EVENTS + "." + Constants.FLAGS).getAllKeys();
 
-            if (allBookKeys.size() == 0) {
+            if (allBookKeys.isEmpty()) {
                 Paper.book(Constants.auth.getCurrentUser().getUid() + "." + Constants.OTHER_EVENTS + "." + Constants.INFO).destroy();
                 Paper.book(Constants.auth.getCurrentUser().getUid() + "." + Constants.OTHER_EVENTS + "." + Constants.FLAGS).destroy();
             }
