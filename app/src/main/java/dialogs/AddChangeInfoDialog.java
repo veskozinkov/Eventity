@@ -104,6 +104,7 @@ public class AddChangeInfoDialog extends DialogFragment {
         this.databaseNotification = new DatabaseNotification(databaseNotification.isActive(), databaseNotification.getIndex1(), databaseNotification.getIndex2());
     }
 
+    @SuppressLint("MissingInflatedId")
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

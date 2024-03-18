@@ -118,7 +118,7 @@ public class AddChangeInfoDialog2 extends DialogFragment {
         this.databaseNotification = new DatabaseNotification(databaseNotification.isActive(), databaseNotification.getIndex1(), databaseNotification.getIndex2());
     }
 
-    @SuppressLint("DefaultLocale")
+    @SuppressLint({"DefaultLocale", "MissingInflatedId"})
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
