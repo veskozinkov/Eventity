@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Daily Events</string>
+    <string name="app_name" translatable="false">Eventity</string>
     <string name="app_font" translatable="false">monospace</string>
     <string name="email_address">Email address</string>
     <string name="password">Password</string>

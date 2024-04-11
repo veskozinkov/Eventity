@@ -164,7 +164,6 @@
                 android:shadowDx="@dimen/small_text_shadowDx"
                 android:shadowDy="@dimen/small_text_shadowDy"
                 android:shadowRadius="@dimen/small_text_shadowRadius"
-                android:text="@string/notifications2"
                 android:textAlignment="center"
                 android:textColor="@color/colorTextWhite"
                 android:textSize="@dimen/card_notification_text_size"
